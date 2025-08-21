@@ -5,6 +5,8 @@ const { sequelize } = require("./models"); // auto loads models/index.js
 const departmentRoutes = require("./routes/departments");
 const routes = require("./routes/index");
 const app = express();
+const cors = require("cors");
+app.use(cors());
 
 app.use(bodyParser.json());
 
