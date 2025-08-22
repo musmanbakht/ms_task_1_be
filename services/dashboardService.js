@@ -32,7 +32,7 @@ const getDepartmentPublicationCountsMonthly = async () => {
         Sequelize.fn(
           "TO_CHAR",
           Sequelize.col("publications.date"),
-          "YYYY-MM-DD"
+          "YYYY-MM"
         ),
         "month",
       ],
