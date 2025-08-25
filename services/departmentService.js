@@ -2,20 +2,6 @@ const { Department, Faculty, Publication } = require("../models");
 const Sequelize = require("sequelize");
 
 async function getAllDepartments() {
-  // return await Department.findAll({
-  //   include: [
-  //     {
-  //       model: Faculty,
-  //       as: "faculty",
-  //       attributes: ["id", "name"], // optional
-  //     },
-  //     {
-  //       model: Publication,
-  //       as: "publications",
-  //       attributes: ["id", "name", "date"],
-  //     },
-  //   ],
-  // });
   try {
     const allDepartments = await Department.findAll({
       attributes: [

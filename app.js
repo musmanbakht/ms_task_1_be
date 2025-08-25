@@ -13,9 +13,8 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api", routes);
 
-
 // Start server
-const PORT = 5000;
+const PORT = 5001;
 app.listen(PORT, async () => {
   console.log(`Server running on http://localhost:${PORT}`);
 

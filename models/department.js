@@ -1,7 +1,5 @@
-'use strict';
-const {
-  Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
   class Department extends Model {
     /**
@@ -13,24 +11,38 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  Department.init({
-    name: DataTypes.STRING,
-    lat: DataTypes.FLOAT,
-    long: DataTypes.FLOAT
-  }, {
-    sequelize,
-    modelName: 'Department',
-  });
-  
+  Department.init(
+    {
+      name: DataTypes.STRING,
+      lat: DataTypes.FLOAT,
+      long: DataTypes.FLOAT,
+      abbreviation: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: "Department",
+    }
+  );
+
   Department.associate = (models) => {
     Department.hasMany(models.Publication, {
       foreignKey: "departmentId",
       as: "publications",
     });
-      Department.belongsTo(models.Faculty, {
-    foreignKey: "facultyId",
-    as: "faculty",
-  });
+    Department.belongsTo(models.Faculty, {
+      foreignKey: "facultyId",
+      as: "faculty",
+    });
+    Department.associate = function (models) {
+      Department.hasMany(models.Patent, {
+        foreignKey: "departmentId",
+        as: "patents",
+      });
+    };
+    Department.hasMany(models.Staff, {
+      foreignKey: "departmentId",
+      as: "staff",
+    });
   };
   return Department;
 };
