@@ -1,10 +1,16 @@
 const { Op } = require("sequelize");
-const { Department, Faculty, Publication, Patent, Sequelize } = require("../models");
+const {
+  Department,
+  Faculty,
+  Publication,
+  Patent,
+  Sequelize,
+} = require("../models");
 
 async function getAllPatents(q, page = 1, limit = 10) {
   try {
     const offset = (page - 1) * limit;
-        const where = q
+    const where = q
       ? {
           [Op.or]: [
             { title: { [Op.iLike]: `%${q}%` } },
@@ -14,7 +20,7 @@ async function getAllPatents(q, page = 1, limit = 10) {
         }
       : {};
     const { rows: allPatents, count: total } = await Patent.findAndCountAll({
-      where, 
+      where,
       include: [
         {
           model: Department,
@@ -47,14 +53,12 @@ async function getAllPatents(q, page = 1, limit = 10) {
 }
 async function getPatentsStats() {
   try {
- const patentsByDepartment = await getPatentCountByDepartment();
- console.log("FIRST", patentsByDepartment);
- const patentsByCountry = await getPatentCountByCountry();
+    const patentsBySchool = await getPatentCountByDepartment();
+    const patentsByCountry = await getPatentCountByCountry();
     return {
       status: 200,
-patentsByDepartment,
-patentsByCountry
-
+      patentsBySchool,
+      patentsByCountry,
     };
   } catch (error) {
     return {
@@ -79,7 +83,7 @@ const getPatentCountByDepartment = async () => {
       },
     ],
     group: ["department.id", "Patent.departmentId"],
-    order: [[Sequelize.fn("COUNT", Sequelize.col("Patent.id")), "DESC"]], // ✅ order by function instead of alias
+    order: [[Sequelize.fn("COUNT", Sequelize.col("Patent.id")), "DESC"]],
     raw: true,
     nest: true,
   });
@@ -101,8 +105,7 @@ const getPatentCountByCountry = async () => {
   return results;
 };
 
-
-
 module.exports = {
-  getAllPatents,getPatentsStats
+  getAllPatents,
+  getPatentsStats,
 };

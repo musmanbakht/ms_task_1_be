@@ -5,10 +5,9 @@ MIGRATION GUIDE
 > > > > > > > > > > > > > > > > > > > npx sequelize-cli model:generate --name Faculty --attributes name:string
 
 This generates:
-
 migrations/xxxx-create-faculty.js
-
 models/faculty.js
+
 Run Migrations
 npx sequelize-cli db:migrate
 

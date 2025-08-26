@@ -18,6 +18,7 @@ async function getAllDepartments() {
         "long",
         "facultyId",
         "createdAt",
+        "abbreviation"
       ],
       include: [
         {
