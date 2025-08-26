@@ -1,5 +1,5 @@
 const { Op } = require("sequelize");
-const { Department, Faculty, Publication, Staff } = require("../models");
+const { Department, Faculty, Publication, Staff, School } = require("../models");
 
 async function getAllStaff(q, page = 1, limit = 10) {
   try {
@@ -23,9 +23,14 @@ async function getAllStaff(q, page = 1, limit = 10) {
       limit: parseInt(limit),
       offset: parseInt(offset),
       include: [
+        // {
+        //   model: Department,
+        //   as: "department",
+        //   attributes: ["name"],
+        // },
         {
-          model: Department,
-          as: "department",
+          model: School,
+          as: "school",
           attributes: ["name"],
         },
       ],

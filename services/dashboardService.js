@@ -1,14 +1,14 @@
 // const Faculty = require("../models/faculty");
 // const Department = require("../models/department");
 // const Publication = require("../models/publication");
-const { Faculty, Department, Publication, sequelize } = require("../models");
+const { Faculty, Department, Publication,  School,sequelize } = require("../models");
 const Sequelize = require("sequelize");
 // Get faculty, department, and publication counts
 const getBasicCounts = async () => {
   const facultyCount = await Faculty.count();
-  const departmentCount = await Department.count();
+  const schoolCount = await School.count();
   const publicationCount = await Publication.count();
-  return { facultyCount, departmentCount, publicationCount };
+  return { facultyCount, schoolCount, publicationCount };
 };
 
 // Get publication count per month (using 'date' column)
@@ -70,14 +70,14 @@ const getDepartmentPublicationCountsMonthly = async () => {
         interval '1 month'
       ) d
     )
-    SELECT d.id AS department_id,
+    SELECT d.id AS "schoolId",
            d.name,
            m.month,
            COALESCE(COUNT(p.id), 0) AS "publicationCount"
-    FROM "Departments" d
+    FROM "Schools" d
     CROSS JOIN months m
     LEFT JOIN "Publications" p
-      ON p."departmentId" = d.id
+      ON p."schoolId" = d.id
      AND to_char(p.date, 'YYYY-MM') = m.month
     GROUP BY d.id, d.name, m.month
     ORDER BY d.id, m.month;
@@ -88,8 +88,9 @@ const getDepartmentPublicationCountsMonthly = async () => {
   return results;
 };
 
-const getCounts = async () => {
+const getCounts = async (year) => {
   try {
+    console.log("YEAR", year)
     const [basicCounts, publicationCountPerMonth, departmentPublicationCounts] =
       await Promise.all([
         getBasicCounts(),

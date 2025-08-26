@@ -10,9 +10,13 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // A patent belongs to a department
-      Patent.belongsTo(models.Department, {
-        foreignKey: "departmentId",
-        as: "department",
+      // Patent.belongsTo(models.Department, {
+      //   foreignKey: "departmentId",
+      //   as: "department",
+      // });
+      Patent.belongsTo(models.School, {
+        foreignKey: "schoolId",
+        as: "school",
       });
     }
   }
@@ -48,10 +52,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING(2),
         allowNull: false,
       },
-      departmentId: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
-      },
+      // departmentId: {
+      //   type: DataTypes.INTEGER,
+      //   allowNull: true,
+      // },
     },
     {
       sequelize,

@@ -5,6 +5,7 @@ const {
   Publication,
   Patent,
   Sequelize,
+  School
 } = require("../models");
 
 async function getAllPatents(q, page = 1, limit = 10) {
@@ -22,9 +23,14 @@ async function getAllPatents(q, page = 1, limit = 10) {
     const { rows: allPatents, count: total } = await Patent.findAndCountAll({
       where,
       include: [
+        // {
+        //   model: Department,
+        //   as: "department",
+        //   attributes: ["id", "name"],
+        // },
         {
-          model: Department,
-          as: "department",
+          model: School,
+          as: "school",
           attributes: ["id", "name"],
         },
       ],
