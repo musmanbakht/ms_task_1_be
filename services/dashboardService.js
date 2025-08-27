@@ -1,7 +1,13 @@
 // const Faculty = require("../models/faculty");
 // const Department = require("../models/department");
 // const Publication = require("../models/publication");
-const { Faculty, Department, Publication,  School,sequelize } = require("../models");
+const {
+  Faculty,
+  Department,
+  Publication,
+  School,
+  sequelize,
+} = require("../models");
 const Sequelize = require("sequelize");
 // Get faculty, department, and publication counts
 const getBasicCounts = async () => {
@@ -87,22 +93,87 @@ const getDepartmentPublicationCountsMonthly = async () => {
 
   return results;
 };
+async function getTopWords(limit = 20) {
+  const STOPWORDS = new Set([
+    "the",
+    "and",
+    "for",
+    "with",
+    "from",
+    "that",
+    "this",
+    "are",
+    "was",
+    "were",
+    "a",
+    "an",
+    "in",
+    "on",
+    "of",
+    "to",
+    "by",
+    "as",
+    "at",
+    "it",
+  ]);
+
+  // Normalize a word: remove accents, lowercase, trim
+  function normalizeWord(word) {
+    return word
+      .normalize("NFD") // decompose accented chars
+      .replace(/[\u0300-\u036f]/g, "") // remove accents
+      .toLowerCase()
+      .trim();
+  }
+
+  // Fetch all titles from DB
+  const publications = await Publication.findAll({
+    attributes: ["name"],
+    raw: true,
+  });
+
+  // Count words
+  const counts = {};
+  publications.forEach((pub) => {
+    if (!pub.name) return;
+    const words = pub.name.match(/\b\w+\b/g); // split words by word boundaries
+    if (words) {
+      words.forEach((w) => {
+        const word = normalizeWord(w);
+        if (word.length >= 3 && !STOPWORDS.has(word)) {
+          counts[word] = (counts[word] || 0) + 1;
+        }
+      });
+    }
+  });
+
+  // Sort and take top N
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([word, count]) => ({ word, count }));
+}
 
 const getCounts = async (year) => {
   try {
-    console.log("YEAR", year)
-    const [basicCounts, publicationCountPerMonth, departmentPublicationCounts] =
-      await Promise.all([
-        getBasicCounts(),
-        // getPublicationCountPerMonth(),
-        getDepartmentPublicationCountsMonthly(),
-      ]);
+    console.log("YEAR", year);
+    const [
+      basicCounts,
+      publicationCountPerMonth,
+      // departmentPublicationCounts,
+      publicationWordCounts,
+    ] = await Promise.all([
+      getBasicCounts(),
+      // getPublicationCountPerMonth(),
+      getDepartmentPublicationCountsMonthly(),
+      getTopWords(),
+    ]);
     return {
       status: 200,
       data: {
         ...basicCounts,
         publicationCountPerMonth,
-        departmentPublicationCounts,
+        publicationWordCounts,
       },
     };
   } catch (error) {
