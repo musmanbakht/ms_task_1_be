@@ -5,7 +5,7 @@ const {
   Publication,
   Patent,
   Sequelize,
-  School
+  School,
 } = require("../models");
 
 async function getAllPatents(q, page = 1, limit = 10) {
@@ -59,12 +59,16 @@ async function getAllPatents(q, page = 1, limit = 10) {
 }
 async function getPatentsStats() {
   try {
-    const patentsBySchool = await getPatentCountByDepartment();
+    const patentsBySchool = await getPatentCountBySchool();
     const patentsByCountry = await getPatentCountByCountry();
+    const topWords = await getTopWords(20);
     return {
       status: 200,
-      patentsBySchool,
-      patentsByCountry,
+      data: {
+        patentsBySchool,
+        patentsByCountry,
+        topWords,
+      },
     };
   } catch (error) {
     return {
@@ -75,20 +79,24 @@ async function getPatentsStats() {
   }
 }
 
-const getPatentCountByDepartment = async () => {
+const getPatentCountBySchool = async () => {
   const results = await Patent.findAll({
     attributes: [
-      "departmentId",
-      [Sequelize.fn("COUNT", Sequelize.col("Patent.id")), "patentCount"],
+      "schoolId",
+      [
+        // Cast count as integer (PostgreSQL syntax)
+        Sequelize.literal('CAST(COUNT("Patent"."id") AS INTEGER)'),
+        "patentCount",
+      ],
     ],
     include: [
       {
-        model: Department,
-        as: "department",
+        model: School,
+        as: "school",
         attributes: ["id", "name"],
       },
     ],
-    group: ["department.id", "Patent.departmentId"],
+    group: ["school.id", "Patent.schoolId"],
     order: [[Sequelize.fn("COUNT", Sequelize.col("Patent.id")), "DESC"]],
     raw: true,
     nest: true,
@@ -110,6 +118,72 @@ const getPatentCountByCountry = async () => {
 
   return results;
 };
+async function getTopWords(limit = 20) {
+  const STOPWORDS = new Set([
+    "the",
+    "and",
+    "for",
+    "with",
+    "from",
+    "that",
+    "this",
+    "are",
+    "was",
+    "were",
+    "a",
+    "an",
+    "in",
+    "on",
+    "of",
+    "to",
+    "by",
+    "as",
+    "at",
+    "it",
+    "sample",
+    "publication",
+  ]);
+
+  // Normalize a word: remove accents, lowercase, trim
+  function normalizeWord(word) {
+    return word
+      .normalize("NFD") // decompose accented chars
+      .replace(/[\u0300-\u036f]/g, "") // remove accents
+      .toLowerCase()
+      .trim();
+  }
+
+  // Fetch all titles from DB
+  const patents = await Patent.findAll({
+    attributes: ["title"],
+    raw: true,
+  });
+
+  // Count words
+  const counts = {};
+  if (!patents || patents.length === 0) {
+    return [];
+  }
+  patents.forEach((pub) => {
+    if (!pub.title) return;
+    const words = pub.title.match(/\b\w+\b/g); // split words by word boundaries
+    if (words) {
+      words.forEach((w) => {
+        const word = normalizeWord(w);
+        if (word.length >= 3 && !STOPWORDS.has(word)) {
+          counts[word] = (counts[word] || 0) + 1;
+        }
+      });
+    }
+  });
+
+  // Sort and take top N
+
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([text, value]) => ({ text, value }));
+}
 
 module.exports = {
   getAllPatents,

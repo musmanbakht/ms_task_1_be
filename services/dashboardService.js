@@ -17,16 +17,6 @@ const getBasicCounts = async () => {
   return { facultyCount, schoolCount, publicationCount };
 };
 
-// Get publication count per month (using 'date' column)
-const getPublicationCountPerMonth = async () => {
-  const result = await Publication.aggregate([
-    { $group: { _id: { $month: "$date" }, count: { $sum: 1 } } },
-    { $project: { month: "$_id", count: 1, _id: 0 } },
-    { $sort: { month: 1 } },
-  ]);
-  return result;
-};
-
 // const getDepartmentPublicationCountsMonthly = async () => {
 //   const results = await Department.findAll({
 //     attributes: [
@@ -115,6 +105,8 @@ async function getTopWords(limit = 20) {
     "as",
     "at",
     "it",
+    "sample",
+    "publication",
   ]);
 
   // Normalize a word: remove accents, lowercase, trim
@@ -134,6 +126,9 @@ async function getTopWords(limit = 20) {
 
   // Count words
   const counts = {};
+  if (!publications || publications.length === 0) {
+    return [];
+  }
   publications.forEach((pub) => {
     if (!pub.name) return;
     const words = pub.name.match(/\b\w+\b/g); // split words by word boundaries
@@ -148,10 +143,11 @@ async function getTopWords(limit = 20) {
   });
 
   // Sort and take top N
+
   return Object.entries(counts)
     .sort((a, b) => b[1] - a[1])
     .slice(0, limit)
-    .map(([word, count]) => ({ word, count }));
+    .map(([text, value]) => ({ text, value }));
 }
 
 const getCounts = async (year) => {
