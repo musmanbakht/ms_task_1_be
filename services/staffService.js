@@ -1,5 +1,11 @@
 const { Op } = require("sequelize");
-const { Department, Faculty, Publication, Staff, School } = require("../models");
+const {
+  Department,
+  Faculty,
+  Publication,
+  Staff,
+  School,
+} = require("../models");
 
 async function getAllStaff(q, page = 1, limit = 10) {
   try {
@@ -60,6 +66,24 @@ async function getAllStaff(q, page = 1, limit = 10) {
     };
   }
 }
+const deleteStaffById = async (id) => {
+  try {
+    const deleted = await Staff.destroy({ where: { id } });
+    if (deleted) {
+      return { status: 200, message: "Staff deleted successfully" };
+    } else {
+      return { status: 404, message: "Staff not found" };
+    }
+  } catch (error) {
+    return {
+      status: 500,
+      message: "Error Deleting Staff",
+      details: error.message,
+    };
+  }
+};
+
 module.exports = {
   getAllStaff,
+  deleteStaffById,
 };

@@ -109,7 +109,11 @@ const getPatentCountByCountry = async () => {
   const results = await Patent.findAll({
     attributes: [
       "country",
-      [Sequelize.fn("COUNT", Sequelize.col("id")), "patentCount"],
+      [
+        // Cast count as integer (PostgreSQL syntax)
+        Sequelize.literal('CAST(COUNT("Patent"."id") AS INTEGER)'),
+        "patentCount",
+      ],
     ],
     group: ["country"],
     order: [[Sequelize.fn("COUNT", Sequelize.col("id")), "DESC"]], // order by function
@@ -185,7 +189,25 @@ async function getTopWords(limit = 20) {
     .map(([text, value]) => ({ text, value }));
 }
 
+const deletePatentById = async (id) => {
+  try {
+    const deleted = await Patent.destroy({ where: { id } });
+    if (deleted) {
+      return { status: 200, message: "Patent deleted successfully" };
+    } else {
+      return { status: 404, message: "Patent not found" };
+    }
+  } catch (error) {
+    return {
+      status: 500,
+      message: "Error fetching patent statistics",
+      details: error.message,
+    };
+  }
+};
+
 module.exports = {
   getAllPatents,
   getPatentsStats,
+  deletePatentById,
 };

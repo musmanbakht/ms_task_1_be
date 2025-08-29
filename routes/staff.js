@@ -13,4 +13,14 @@ router.get("/", async (req, res) => {
     res.status(500).json({ error: "Something went wrong" });
   }
 });
+router.delete("/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const patents = await staffService.deleteStaffById(id);
+    res.json(patents);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Something went wrong" });
+  }
+});
 module.exports = router;
