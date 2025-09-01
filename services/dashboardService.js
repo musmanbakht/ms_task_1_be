@@ -10,10 +10,62 @@ const {
 } = require("../models");
 const Sequelize = require("sequelize");
 // Get faculty, department, and publication counts
-const getBasicCounts = async () => {
+const getCounts = async (year) => {
+  try {
+    console.log("YEAR", year);
+    let yearToUse = null;
+    if (
+      year !== undefined &&
+      year !== null &&
+      year !== "" &&
+      year !== "null" &&
+      year !== "undefined"
+    ) {
+      const parsedYear = Number(year);
+      if (!isNaN(parsedYear)) {
+        yearToUse = parsedYear;
+      }
+    }
+    const [
+      basicCounts,
+      publicationCountPerMonth,
+      // departmentPublicationCounts,
+      publicationWordCounts,
+    ] = await Promise.all([
+      getBasicCounts(yearToUse),
+      // getPublicationCountPerMonth(),
+      getDepartmentPublicationCountsMonthly(yearToUse),
+      getTopWords(yearToUse),
+    ]);
+    return {
+      status: 200,
+      data: {
+        ...basicCounts,
+        publicationCountPerMonth,
+        publicationWordCounts,
+      },
+    };
+  } catch (error) {
+    return {
+      status: 500,
+      message: "Error fetching counts",
+      details: error.message,
+    };
+  }
+};
+const getBasicCounts = async (year) => {
   const facultyCount = await Faculty.count();
   const schoolCount = await School.count();
-  const publicationCount = await Publication.count();
+  const whereClause = year
+    ? sequelize.where(
+        sequelize.fn("EXTRACT", sequelize.literal('YEAR FROM "published"')),
+        year
+      )
+    : {};
+  const publicationCount = await Publication.count({
+    where: whereClause,
+  });
+
   return { facultyCount, schoolCount, publicationCount };
 };
 
@@ -54,36 +106,57 @@ const getBasicCounts = async () => {
 //   return results;
 // };
 
-// Main function using Promise.all
-const getDepartmentPublicationCountsMonthly = async () => {
+const getDepartmentPublicationCountsMonthly = async (year) => {
+  const replacements = { year };
+
   const results = await sequelize.query(
     `
     WITH months AS (
       SELECT to_char(d, 'YYYY-MM') AS month
       FROM generate_series(
-        (SELECT MIN(date) FROM "Publications"),
-        (SELECT MAX(date) FROM "Publications"),
+        ${
+          year
+            ? `date '${year}-01-01'`
+            : `(SELECT MIN("date") FROM "Publications")`
+        },
+        ${
+          year
+            ? `date '${year}-12-31'`
+            : `(SELECT MAX("date") FROM "Publications")`
+        },
         interval '1 month'
       ) d
     )
-    SELECT d.id AS "schoolId",
-           d.name,
+    SELECT s.id AS "schoolId",
+           s.abbreviation AS "schoolAbbreviation",
            m.month,
-           COALESCE(COUNT(p.id), 0) AS "publicationCount"
-    FROM "Schools" d
+           COALESCE(COUNT(p.id), 0) AS "submissionCount",
+           COALESCE(SUM(CASE WHEN p."published" IS NOT NULL THEN 1 ELSE 0 END), 0) AS "publishedCount"
+    FROM "Schools" s
     CROSS JOIN months m
     LEFT JOIN "Publications" p
-      ON p."schoolId" = d.id
-     AND to_char(p.date, 'YYYY-MM') = m.month
-    GROUP BY d.id, d.name, m.month
-    ORDER BY d.id, m.month;
+      ON p."schoolId" = s.id
+     AND to_char(p."date", 'YYYY-MM') = m.month
+     ${year ? `AND EXTRACT(YEAR FROM p."date") = :year` : ""}
+    GROUP BY s.id, s.abbreviation, m.month
+    ORDER BY s.id, m.month;
     `,
-    { type: Sequelize.QueryTypes.SELECT }
+    {
+      replacements,
+      type: Sequelize.QueryTypes.SELECT,
+    }
   );
 
   return results;
 };
-async function getTopWords(limit = 20) {
+
+async function getTopWords(year, limit = 100) {
+  const whereClause = year
+    ? sequelize.where(
+        sequelize.fn("EXTRACT", sequelize.literal('YEAR FROM "published"')),
+        year
+      )
+    : {};
   const STOPWORDS = new Set([
     "the",
     "and",
@@ -120,6 +193,7 @@ async function getTopWords(limit = 20) {
 
   // Fetch all titles from DB
   const publications = await Publication.findAll({
+    where: whereClause,
     attributes: ["name"],
     raw: true,
   });
@@ -149,37 +223,51 @@ async function getTopWords(limit = 20) {
     .slice(0, limit)
     .map(([text, value]) => ({ text, value }));
 }
-
-const getCounts = async (year) => {
+async function getAllDepartments() {
   try {
-    console.log("YEAR", year);
-    const [
-      basicCounts,
-      publicationCountPerMonth,
-      // departmentPublicationCounts,
-      publicationWordCounts,
-    ] = await Promise.all([
-      getBasicCounts(),
-      // getPublicationCountPerMonth(),
-      getDepartmentPublicationCountsMonthly(),
-      getTopWords(),
-    ]);
+    const allDepartments = await School.findAll({
+      attributes: [
+        "id",
+        "name",
+        [
+          Sequelize.cast(
+            Sequelize.fn("COUNT", Sequelize.col("publications.id")),
+            "INTEGER"
+          ),
+          "publicationCount",
+        ],
+        "lat",
+        "long",
+        "facultyId",
+        "createdAt",
+        "abbreviation",
+      ],
+      include: [
+        {
+          model: Publication,
+          as: "publications",
+          attributes: [], // we don’t need publication details, just count
+        },
+        {
+          model: Faculty,
+          as: "faculty",
+          attributes: ["id", "name"], // optional
+        },
+      ],
+      group: ["School.id", "faculty.id"], // group by department
+    });
     return {
       status: 200,
-      data: {
-        ...basicCounts,
-        publicationCountPerMonth,
-        publicationWordCounts,
-      },
+      allSchools: allDepartments,
     };
   } catch (error) {
     return {
       status: 500,
-      message: "Error fetching counts",
+      message: "Error fetching department statistics",
       details: error.message,
     };
   }
-};
+}
 
 module.exports = {
   getCounts,

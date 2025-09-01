@@ -5,7 +5,8 @@ const dashboardService = require("../services/dashboardService");
 // GET /api/departments/all
 router.get("/", async (req, res) => {
   try {
-    const {year} = req.query
+    const { year } = req.query;
+    console.log("YEAR Here", year);
     const dashboardStats = await dashboardService.getCounts(year);
     res.json(dashboardStats);
   } catch (err) {
