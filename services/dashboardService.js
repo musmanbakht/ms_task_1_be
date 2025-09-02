@@ -1,6 +1,4 @@
-// const Faculty = require("../models/faculty");
-// const Department = require("../models/department");
-// const Publication = require("../models/publication");
+const { Op, fn, col, cast, where } = require("sequelize");
 const {
   Faculty,
   Department,
@@ -31,11 +29,13 @@ const getCounts = async (year) => {
       publicationCountPerMonth,
       // departmentPublicationCounts,
       publicationWordCounts,
+      allSchoolsYearly,
     ] = await Promise.all([
       getBasicCounts(yearToUse),
       // getPublicationCountPerMonth(),
       getDepartmentPublicationCountsMonthly(yearToUse),
       getTopWords(yearToUse),
+      getAllDepartmentsYearly(yearToUse),
     ]);
     return {
       status: 200,
@@ -43,6 +43,7 @@ const getCounts = async (year) => {
         ...basicCounts,
         publicationCountPerMonth,
         publicationWordCounts,
+        allSchoolsYearly,
       },
     };
   } catch (error) {
@@ -223,17 +224,24 @@ async function getTopWords(year, limit = 100) {
     .slice(0, limit)
     .map(([text, value]) => ({ text, value }));
 }
-async function getAllDepartments() {
+
+async function getAllDepartmentsYearly(year) {
   try {
-    const allDepartments = await School.findAll({
+    const publicationWhere = year
+      ? {
+          published: {
+            [Op.gte]: new Date(`${year}-01-01`),
+            [Op.lte]: new Date(`${year}-12-31`),
+          },
+        }
+      : {};
+
+    const allSchools = await School.findAll({
       attributes: [
         "id",
         "name",
         [
-          Sequelize.cast(
-            Sequelize.fn("COUNT", Sequelize.col("publications.id")),
-            "INTEGER"
-          ),
+          cast(fn("COUNT", col("publications.id")), "INTEGER"),
           "publicationCount",
         ],
         "lat",
@@ -246,20 +254,20 @@ async function getAllDepartments() {
         {
           model: Publication,
           as: "publications",
-          attributes: [], // we don’t need publication details, just count
+          attributes: [], // don’t need details, just count
+          where: publicationWhere, // only filter when year is passed
+          required: false, // important! ensures departments with 0 pubs are included
         },
         {
           model: Faculty,
           as: "faculty",
-          attributes: ["id", "name"], // optional
+          attributes: ["id", "name"],
         },
       ],
-      group: ["School.id", "faculty.id"], // group by department
+      group: ["School.id", "faculty.id"],
     });
-    return {
-      status: 200,
-      allSchools: allDepartments,
-    };
+
+    return allSchools;
   } catch (error) {
     return {
       status: 500,
