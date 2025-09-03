@@ -93,7 +93,7 @@ const getPatentCountBySchool = async () => {
       {
         model: School,
         as: "school",
-        attributes: ["id", "name"],
+        attributes: ["id", "name", "abbreviation"],
       },
     ],
     group: ["school.id", "Patent.schoolId"],

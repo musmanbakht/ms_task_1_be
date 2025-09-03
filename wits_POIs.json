@@ -1,0 +1,2026 @@
+{
+    "operationalLayers": [
+        {
+            "layerType": "ArcGISFeatureLayer",
+            "id": "csv_6158",
+            "title": "Book1",
+            "featureCollection": {
+                "layers": [
+                    {
+                        "featureSet": {
+                            "features": [
+                                {
+                                    "geometry": {
+                                        "x": 3120338,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Senate House",
+                                        "Caption": "First place one goes through when entering Wits. Registrations, fees and cashiers office. Also houses the Vice Chancelor's office",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030476,
+                                        "Lat": -26.192806,
+                                        "__OBJECTID": 0,
+                                        "URL": "https://www.flickr.com/photos/grahameh/2615465013",
+                                        "Thumb_URL": "https://www.flickr.com/photos/grahameh/2615465013"
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120197,
+                                        "y": -3022958,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geography and Archaeology",
+                                        "Caption": "The School of Geography, Archaeology and Environmental Studies is one of the most productive research units at Wits. Staff members contribute regularly to local and international publications and are members of the editorial boards of many prestigious journals. The School has an excellent reputation both locally and internationally as one of the leaders in African scholarship on issues such as sustainability, climate change, urban social and environmental justice, tourism and development. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029206,
+                                        "Lat": -26.192626,
+                                        "__OBJECTID": 1,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120186,
+                                        "y": -3023003,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Paloesciences",
+                                        "Caption": "The Evolutionary Studies Institute. The richness and completeness of South Africa�s fossil record makes it a prime laboratory for studying the origins of species through time, including human origins.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029105,
+                                        "Lat": -26.192985,
+                                        "__OBJECTID": 2,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120248,
+                                        "y": -3022778,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geosciences",
+                                        "Caption": "With 18 academic and 30 Honorary staff, it is the largest and most diverse academic Earth Science institution in southern Africa and the only one offering specialist Honours degrees in Geophysics and Palaeontology, in addition to Geology, Geochemistry and Environmental Earth Science. The School leads several initiatives for geosciences research and training nationally and on the African continent.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029667,
+                                        "Lat": -26.191175,
+                                        "__OBJECTID": 3,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120428,
+                                        "y": -3022894,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chemistry",
+                                        "Caption": "The Wits School of Chemistry consists of over 60 permanent academic and technical staff, as well as a number of honorary staff, and around 100 Post-Graduate students and Post-Doctoral Fellows.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.031279,
+                                        "Lat": -26.192108,
+                                        "__OBJECTID": 4,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120510,
+                                        "y": -3022832,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Molecular and Cell Biology",
+                                        "Caption": "The School of Molecular and Cell Biology (MCB) within the Faculty of Science at the University of the Witwatersrand proudly offers cutting-edge teaching and research across diverse subject areas. The school has three main focus areas: Biochemistry & Cell Biology, Genetics & Developmental Biology and Microbiology & Biotechnology.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.032014,
+                                        "Lat": -26.191613,
+                                        "__OBJECTID": 5,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119949,
+                                        "y": -3022826,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chamber of Mines",
+                                        "Caption": "The study of engineering involves the conservation and development of the earth�s natural, agricultural and mineral resources in order to serve humanity�s needs. In addition, engineering plays a vital role in the survival of the South African and international economies. We often take for granted our roads, bridges, buildings, cars, aeroplanes, fuels, electricity, television and telephones, but none of these would be possible without engineers.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026979,
+                                        "Lat": -26.191559,
+                                        "__OBJECTID": 6,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119754,
+                                        "y": -3022471,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Law",
+                                        "Caption": "The Oliver Schreiner School of Law is recognized as one of the top law schools in the country, with a reputation for leading edge research, active public engagement, excellent teaching and rigorous training. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.02523,
+                                        "Lat": -26.188699,
+                                        "__OBJECTID": 7,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119880,
+                                        "y": -3022472,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Accounting",
+                                        "Caption": "The Wits School of Accountacy attracts and produces some of the country�s best financial minds, making it the first choice for many individuals seeking to pursue a career in the field of Accountancy. The School consistently produces some of the top performers in the South African Institute of Chartered Accountants (SAICA) and Independent Regulatory Board of Auditors (IRBA) Qualifying Examinations.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026362,
+                                        "Lat": -26.188704,
+                                        "__OBJECTID": 8,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022645,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Built Environment",
+                                        "Caption": "Degrees in the Built Environment address the social, spatial and infrastructural needs of a transforming South Africa. This includes the degrees in Architecture, Urban and Regional Planning, Property Studies and Quantity Surveying. The delivery of affordable housing, the development of rural and urban environments, and meeting other social and physical challenges form the basis of the teaching, learning and research programmes that are offered by this particular Faculty.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029303,
+                                        "Lat": -26.190098,
+                                        "__OBJECTID": 9,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120457,
+                                        "y": -3022988,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "School of Arts",
+                                        "Caption": "Through advancing excellence in research, teaching and learning, the Wits School of Arts combines critical inquiry with artistic practice in ways that engage in transformative ways with our contemporary urban, African and global contexts.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.031538,
+                                        "Lat": -26.192865,
+                                        "__OBJECTID": 10,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119959,
+                                        "y": -3022629,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Plus",
+                                        "Caption": "If life and your career is a full-time job and you can�t study full-time but you need to learn more to earn more or advance yourself then WITS Plus is for you!",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.027073,
+                                        "Lat": -26.189976,
+                                        "__OBJECTID": 11,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120369,
+                                        "y": -3022766,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Waternweiler Library",
+                                        "Caption": "Waternweiler Library is a Helping Hand for Arts, Drama,Music And Film Students. It has an important electronic journal subscription to the Oxford suite of resources, aimed at the Arts and Social Sciences disciplines.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030755,
+                                        "Lat": -26.191081,
+                                        "__OBJECTID": 12,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120216,
+                                        "y": -3022718,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "William Cullen Library",
+                                        "Caption": "The William Cullen Library is situated on the east campus of the University. The library was named after Dr. William Cullen (1867-1948) - Chemist & Metallurgist.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029378,
+                                        "Lat": -26.190689,
+                                        "__OBJECTID": 13,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120103,
+                                        "y": -3022444,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Plametarium",
+                                        "Caption": " The planetarium serves as an academic and educational centre for scholars, researchers and academics who study astronomy. The planetarium hosts about 70 000 visitors per year who come to view numerous displays, and engage in tours, lectures and workshops.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028358,
+                                        "Lat": -26.188484,
+                                        "__OBJECTID": 14,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120090,
+                                        "y": -3022989,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Origins Centre",
+                                        "Caption": "Opened by President Thabo Mbeki in 2006, the Origins Centre is a world-class museum dedicated to exploring and celebrating the history of modern humankind, telling the story of the emergence of human beings and humanity in southern Africa.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028247,
+                                        "Lat": -26.192877,
+                                        "__OBJECTID": 15,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120614,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Arts Museum",
+                                        "Caption": "Wits Art Museum is home to an extraordinary collection of African art, including contemporary and historical art from South Africa and art from West and Central Africa. It hosts a dynamic program of events and art exhibitions. The Museum is one of Johannesburg's premier tourist attractions, along with the Apartheid Museum and Constitution Hill. It is part of the Wits University Cultural Precinct, just three blocks from Nelson Mandela Bridge. WAM is in the hip, regenerating area of Braamfontein, which is also home to many students, interesting shops and places to eat. The WAM Cafe is a fun place to meet friends and enjoy delicious food and coffee.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.03295,
+                                        "Lat": -26.192803,
+                                        "__OBJECTID": 16,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120366,
+                                        "y": 3022622,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Matrix",
+                                        "Caption": "A student mall, the Matrix, originally housed 26 leisure and convenience outlets. It continues to grow with the introduction of new shops and food spots. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030728,
+                                        "Lat": 26.189919,
+                                        "__OBJECTID": 17,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022584,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Old Mutual Sports Hall",
+                                        "Caption": "Houses a diverse range of sports and facilities which include: Gymnastics, Weights, Badminton, Karate, Mountain Wall, Yuishinkai Kobujutsu and Tai Chi ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029306,
+                                        "Lat": -26.189614,
+                                        "__OBJECTID": 18,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120327,
+                                        "y": -3022895,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Great Hall",
+                                        "Caption": "Corinthian columns and classic monumental architecture make the Wits Great Hall an archetypal university building. It was originally opened in 1934. The Great Hall seats up to 1035, has a rich heritage that dates back to the world premiere of the SA musical, King Kong and beyond. Today, it is usually used for Graduations, Prize Givings and special lectures. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030373,
+                                        "Lat": -26.192118,
+                                        "__OBJECTID": 19,
+                                        "URL": null,
+                                        "Thumb_URL": null
+                                    }
+                                }
+                            ],
+                            "geometryType": "esriGeometryPoint"
+                        },
+                        "layerDefinition": {
+                            "geometryType": "esriGeometryPoint",
+                            "objectIdField": "__OBJECTID",
+                            "name": "Book1",
+                            "type": "Feature Layer",
+                            "typeIdField": "",
+                            "drawingInfo": {
+                                "renderer": {
+                                    "type": "simple",
+                                    "symbol": {
+                                        "angle": 0,
+                                        "xoffset": 0,
+                                        "yoffset": 0,
+                                        "type": "esriPMS",
+                                        "url": "http://static.arcgis.com/images/Symbols/Basic/RedSphere.png",
+                                        "imageData": "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",
+                                        "contentType": "image/png",
+                                        "width": 15,
+                                        "height": 15
+                                    }
+                                }
+                            },
+                            "fields": [
+                                {
+                                    "name": "__OBJECTID",
+                                    "alias": "__OBJECTID",
+                                    "type": "esriFieldTypeOID",
+                                    "editable": false,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Name",
+                                    "alias": "Name",
+                                    "type": "esriFieldTypeString",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Caption",
+                                    "alias": "Caption",
+                                    "type": "esriFieldTypeString",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Icon_Colour",
+                                    "alias": "Icon_Colour",
+                                    "type": "esriFieldTypeString",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Long",
+                                    "alias": "Long",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Lat",
+                                    "alias": "Lat",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "URL",
+                                    "alias": "URL",
+                                    "type": "esriFieldTypeString",
+                                    "editable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Thumb_URL",
+                                    "alias": "Thumb_URL",
+                                    "type": "esriFieldTypeString",
+                                    "editable": true,
+                                    "domain": null
+                                }
+                            ],
+                            "types": [],
+                            "capabilities": "Query",
+                            "templates": [],
+                            "extent": {
+                                "type": "extent",
+                                "xmin": 3119753.9999,
+                                "ymin": -3023003.0001,
+                                "xmax": 3120614.0001,
+                                "ymax": 3022622.0001,
+                                "spatialReference": {
+                                    "wkid": 102100
+                                }
+                            }
+                        },
+                        "nextObjectId": 20
+                    }
+                ],
+                "showLegend": true
+            },
+            "visibility": false,
+            "opacity": 1
+        },
+        {
+            "layerType": "ArcGISFeatureLayer",
+            "id": "csv_7638",
+            "title": "POIs",
+            "featureCollection": {
+                "layers": [
+                    {
+                        "layerDefinition": {
+                            "geometryType": "esriGeometryPoint",
+                            "objectIdField": "__OBJECTID",
+                            "type": "Feature Layer",
+                            "typeIdField": "",
+                            "drawingInfo": {
+                                "renderer": {
+                                    "type": "simple",
+                                    "symbol": {
+                                        "color": [
+                                            77,
+                                            77,
+                                            77,
+                                            255
+                                        ],
+                                        "size": 6,
+                                        "angle": 0,
+                                        "xoffset": 0,
+                                        "yoffset": 0,
+                                        "type": "esriSMS",
+                                        "style": "esriSMSCircle",
+                                        "outline": {
+                                            "color": [
+                                                255,
+                                                255,
+                                                255,
+                                                255
+                                            ],
+                                            "width": 0.75,
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid"
+                                        }
+                                    }
+                                },
+                                "fixedSymbols": true
+                            },
+                            "fields": [
+                                {
+                                    "name": "__OBJECTID",
+                                    "alias": "__OBJECTID",
+                                    "type": "esriFieldTypeOID",
+                                    "editable": false,
+                                    "nullable": false,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Name",
+                                    "alias": "Name",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Caption",
+                                    "alias": "Caption",
+                                    "type": "esriFieldTypeString",
+                                    "length": 1023,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Icon_Colour",
+                                    "alias": "Icon_Colour",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Long",
+                                    "alias": "Long",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Lat",
+                                    "alias": "Lat",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "URL",
+                                    "alias": "URL",
+                                    "type": "esriFieldTypeString",
+                                    "length": 511,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Thumb_URL",
+                                    "alias": "Thumb_URL",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                }
+                            ],
+                            "types": [],
+                            "capabilities": "Query",
+                            "name": "POIs",
+                            "extent": {
+                                "type": "extent",
+                                "xmin": 3119753.9999,
+                                "ymin": -3023003.0001,
+                                "xmax": 3120614.0001,
+                                "ymax": 3022622.0001,
+                                "spatialReference": {
+                                    "wkid": 102100
+                                }
+                            },
+                            "templates": [],
+                            "minScale": 73957191,
+                            "maxScale": 0
+                        },
+                        "featureSet": {
+                            "features": [
+                                {
+                                    "geometry": {
+                                        "x": 3120338,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Senate House",
+                                        "Caption": "First place one goes through when entering Wits. Registrations, fees and cashiers office. Also houses the Vice Chancelor's office",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030476,
+                                        "Lat": -26.192806,
+                                        "URL": "https://www.flickr.com/photos/grahameh/2615465013",
+                                        "__OBJECTID": 0,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120197,
+                                        "y": -3022958,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geography and Archaeology",
+                                        "Caption": "The School of Geography, Archaeology and Environmental Studies is one of the most productive research units at Wits. Staff members contribute regularly to local and international publications and are members of the editorial boards of many prestigious journals. The School has an excellent reputation both locally and internationally as one of the leaders in African scholarship on issues such as sustainability, climate change, urban social and environmental justice, tourism and development. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029206,
+                                        "Lat": -26.192626,
+                                        "URL": "https://www.google.co.za/search?q=bernard+price+building+wits&biw=1829&bih=910&source=lnms&tbm=isch&sa=X&ei=XD1vVeabGeWC7gaEvoLYBw&ved=0CAcQ_AUoAg&dpr=1.05#imgrc=jwEnSvzvY_E2VM%253A%3BKWMEVsMdQhKtOM%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252Fwp-content%252Fuploads%252F2015%252F04%252Fbp.jpg%253Fw%253D582%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252F2015%252F04%252F21%252Fthe-men-behind-the-names-of-buildings-at-wits-university%252F%3B960%3B1440",
+                                        "__OBJECTID": 1,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120186,
+                                        "y": -3023003,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Paloesciences",
+                                        "Caption": "The Evolutionary Studies Institute. The richness and completeness of South Africa�s fossil record makes it a prime laboratory for studying the origins of species through time, including human origins.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029105,
+                                        "Lat": -26.192985,
+                                        "URL": "http://www.brentstirton.com/index.php#mi=2&pt=1&pi=10000&s=26&p=32&a=3&at=0",
+                                        "__OBJECTID": 2,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120248,
+                                        "y": -3022778,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geosciences",
+                                        "Caption": "With 18 academic and 30 Honorary staff, it is the largest and most diverse academic Earth Science institution in southern Africa and the only one offering specialist Honours degrees in Geophysics and Palaeontology, in addition to Geology, Geochemistry and Environmental Earth Science. The School leads several initiatives for geosciences research and training nationally and on the African continent.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029667,
+                                        "Lat": -26.191175,
+                                        "URL": "https://twitter.com/MPlail/status/599890388422434816",
+                                        "__OBJECTID": 3,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120428,
+                                        "y": -3022894,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chemistry",
+                                        "Caption": "The Wits School of Chemistry consists of over 60 permanent academic and technical staff, as well as a number of honorary staff, and around 100 Post-Graduate students and Post-Doctoral Fellows.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.031279,
+                                        "Lat": -26.192108,
+                                        "URL": "http://witsvuvuzela.com/wp-content/uploads/2012/08/ChemistryforOnline_Tee2.jpg",
+                                        "__OBJECTID": 4,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120510,
+                                        "y": -3022832,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Molecular and Cell Biology",
+                                        "Caption": "The School of Molecular and Cell Biology (MCB) within the Faculty of Science at the University of the Witwatersrand proudly offers cutting-edge teaching and research across diverse subject areas. The school has three main focus areas: Biochemistry & Cell Biology, Genetics & Developmental Biology and Microbiology & Biotechnology.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.032014,
+                                        "Lat": -26.191613,
+                                        "URL": "http://www.artefacts.co.za/main/Buildings/image_slide.php?type=2&bldgid=10060&rank=1",
+                                        "__OBJECTID": 5,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119949,
+                                        "y": -3022826,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chamber of Mines",
+                                        "Caption": "The study of engineering involves the conservation and development of the earth�s natural, agricultural and mineral resources in order to serve humanity�s needs. In addition, engineering plays a vital role in the survival of the South African and international economies. We often take for granted our roads, bridges, buildings, cars, aeroplanes, fuels, electricity, television and telephones, but none of these would be possible without engineers.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026979,
+                                        "Lat": -26.191559,
+                                        "URL": "http://mg.co.za/article/2012-06-01-wits-building-a-better-future",
+                                        "__OBJECTID": 6,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119754,
+                                        "y": -3022471,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Law",
+                                        "Caption": "The Oliver Schreiner School of Law is recognized as one of the top law schools in the country, with a reputation for leading edge research, active public engagement, excellent teaching and rigorous training. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.02523,
+                                        "Lat": -26.188699,
+                                        "URL": "https://lameezomarjee.files.wordpress.com/2014/04/dsc_0575edited.jpg",
+                                        "__OBJECTID": 7,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119880,
+                                        "y": -3022472,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Accountancy",
+                                        "Caption": "The Wits School of Accountacy attracts and produces some of the country�s best financial minds, making it the first choice for many individuals seeking to pursue a career in the field of Accountancy. The School consistently produces some of the top performers in the South African Institute of Chartered Accountants (SAICA) and Independent Regulatory Board of Auditors (IRBA) Qualifying Examinations.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026362,
+                                        "Lat": -26.188704,
+                                        "URL": "http://www.businessessentials.co.za/wp-content/uploads/2014/11/wits-school-of-accountancy-1-be.jpg",
+                                        "__OBJECTID": 8,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022645,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Built Environment",
+                                        "Caption": "Degrees in the Built Environment address the social, spatial and infrastructural needs of a transforming South Africa. This includes the degrees in Architecture, Urban and Regional Planning, Property Studies and Quantity Surveying. The delivery of affordable housing, the development of rural and urban environments, and meeting other social and physical challenges form the basis of the teaching, learning and research programmes that are offered by this particular Faculty.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029303,
+                                        "Lat": -26.190098,
+                                        "URL": "http://l-e-a-d.pro/news/1705/tonight-public-final-presentation/20110717/day-10-joburg-workshop",
+                                        "__OBJECTID": 9,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120457,
+                                        "y": -3022988,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "School of Arts",
+                                        "Caption": "Through advancing excellence in research, teaching and learning, the Wits School of Arts combines critical inquiry with artistic practice in ways that engage in transformative ways with our contemporary urban, African and global contexts.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.031538,
+                                        "Lat": -26.192865,
+                                        "URL": "http://witsvuvuzela.com/wp-content/uploads/2012/05/IMG_6075.jpg",
+                                        "__OBJECTID": 10,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119959,
+                                        "y": -3022629,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Plus",
+                                        "Caption": "If life and your career is a full-time job and you can�t study full-time but you need to learn more to earn more or advance yourself then WITS Plus is for you!",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.027073,
+                                        "Lat": -26.189976,
+                                        "URL": "http://www.businessessentials.co.za/wp-content/uploads/2014/09/wits-plus-3-be.jpg",
+                                        "__OBJECTID": 11,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120369,
+                                        "y": -3022766,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Waternweiler Library",
+                                        "Caption": "Waternweiler Library is a Helping Hand for Arts, Drama,Music And Film Students. It has an important electronic journal subscription to the Oxford suite of resources, aimed at the Arts and Social Sciences disciplines.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030755,
+                                        "Lat": -26.191081,
+                                        "URL": "https://www.google.co.za/search?q=paleo+sciences+wits&biw=1829&bih=910&source=lnms&tbm=isch&sa=X&ei=yj9vVcviLurW7Qbo5IGoCQ&ved=0CAYQ_AUoAQ&dpr=1.05#tbm=isch&q=waternweiler+library+wits&imgrc=ZIky_l2Yn2KVjM%253A%3BKWMEVsMdQhKtOM%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252Fwp-content%252Fuploads%252F2015%252F04%252Fww1.jpg%253Fw%253D582%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252F2015%252F04%252F21%252Fthe-men-behind-the-names-of-buildings-at-wits-university%252F%3B1440%3B960",
+                                        "__OBJECTID": 12,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120216,
+                                        "y": -3022718,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "William Cullen Library",
+                                        "Caption": "The William Cullen Library is situated on the east campus of the University. The library was named after Dr. William Cullen (1867-1948) - Chemist & Metallurgist.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029378,
+                                        "Lat": -26.190689,
+                                        "URL": "https://marshamoodley.files.wordpress.com/2012/03/img_0837.jpg",
+                                        "__OBJECTID": 13,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120103,
+                                        "y": -3022444,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Plametarium",
+                                        "Caption": " The planetarium serves as an academic and educational centre for scholars, researchers and academics who study astronomy. The planetarium hosts about 70 000 visitors per year who come to view numerous displays, and engage in tours, lectures and workshops.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028358,
+                                        "Lat": -26.188484,
+                                        "URL": "http://wsoa.wits.ac.za/music/wp-content/uploads/sites/8/2014/11/planetarium.jpg",
+                                        "__OBJECTID": 14,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120090,
+                                        "y": -3022989,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Origins Centre",
+                                        "Caption": "Opened by President Thabo Mbeki in 2006, the Origins Centre is a world-class museum dedicated to exploring and celebrating the history of modern humankind, telling the story of the emergence of human beings and humanity in southern Africa.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028247,
+                                        "Lat": -26.192877,
+                                        "URL": "https://msusouthafricastudyabroad.files.wordpress.com/2012/06/img_0315.jpg",
+                                        "__OBJECTID": 15,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120614,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Arts Museum",
+                                        "Caption": "Wits Art Museum is home to an extraordinary collection of African art, including contemporary and historical art from South Africa and art from West and Central Africa. It hosts a dynamic program of events and art exhibitions. The Museum is one of Johannesburg's premier tourist attractions, along with the Apartheid Museum and Constitution Hill. It is part of the Wits University Cultural Precinct, just three blocks from Nelson Mandela Bridge. WAM is in the hip, regenerating area of Braamfontein, which is also home to many students, interesting shops and places to eat. The WAM Cafe is a fun place to meet friends and enjoy delicious food and coffee.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.03295,
+                                        "Lat": -26.192803,
+                                        "URL": "http://eduardocachucho.com/wp-content/uploads/2012/11/A-Maze-Festival-71-Lerato-Maduna.jpg",
+                                        "__OBJECTID": 16,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120366,
+                                        "y": 3022622,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Matrix",
+                                        "Caption": "A student mall, the Matrix, originally housed 26 leisure and convenience outlets. It continues to grow with the introduction of new shops and food spots. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030728,
+                                        "Lat": 26.189919,
+                                        "URL": "https://twitter.com/houseofhohwa",
+                                        "__OBJECTID": 17,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022584,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Old Mutual Sports Hall",
+                                        "Caption": "Houses a diverse range of sports and facilities which include: Gymnastics, Weights, Badminton, Karate, Mountain Wall, Yuishinkai Kobujutsu and Tai Chi ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029306,
+                                        "Lat": -26.189614,
+                                        "URL": "https://twitter.com/witssport/status/298377500201988096",
+                                        "__OBJECTID": 18,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120327,
+                                        "y": -3022895,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Great Hall",
+                                        "Caption": "Corinthian columns and classic monumental architecture make the Wits Great Hall an archetypal university building. It was originally opened in 1934. The Great Hall seats up to 1035, has a rich heritage that dates back to the world premiere of the SA musical, King Kong and beyond. Today, it is usually used for Graduations, Prize Givings and special lectures. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030373,
+                                        "Lat": -26.192118,
+                                        "URL": "http://upload.wikimedia.org/wikipedia/commons/f/f4/The_Wits_University_Great_Hall.jpg",
+                                        "__OBJECTID": 19,
+                                        "Thumb_URL": null
+                                    }
+                                }
+                            ],
+                            "geometryType": "esriGeometryPoint"
+                        },
+                        "nextObjectId": 20,
+                        "popupInfo": {
+                            "title": "{Name}",
+                            "fieldInfos": [
+                                {
+                                    "fieldName": "__OBJECTID",
+                                    "label": "__OBJECTID",
+                                    "isEditable": false,
+                                    "tooltip": "",
+                                    "visible": false,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Name",
+                                    "label": "Name",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Caption",
+                                    "label": "Caption",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Icon_Colour",
+                                    "label": "Icon_Colour",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Long",
+                                    "label": "Long",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    },
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Lat",
+                                    "label": "Lat",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    },
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "URL",
+                                    "label": "URL",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Thumb_URL",
+                                    "label": "Thumb_URL",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                }
+                            ],
+                            "description": null,
+                            "showAttachments": false,
+                            "mediaInfos": []
+                        }
+                    }
+                ],
+                "showLegend": true
+            },
+            "visibility": false,
+            "opacity": 1
+        },
+        {
+            "layerType": "ArcGISFeatureLayer",
+            "id": "csv_4754",
+            "title": "POIs",
+            "featureCollection": {
+                "layers": [
+                    {
+                        "layerDefinition": {
+                            "geometryType": "esriGeometryPoint",
+                            "objectIdField": "__OBJECTID",
+                            "type": "Feature Layer",
+                            "typeIdField": "",
+                            "drawingInfo": {
+                                "renderer": {
+                                    "type": "uniqueValue",
+                                    "field1": "Name",
+                                    "defaultSymbol": null,
+                                    "uniqueValueInfos": [
+                                        {
+                                            "value": "Accountancy",
+                                            "label": "Accountancy",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Chamber of Mines",
+                                            "label": "Engineering",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Chemistry",
+                                            "label": "Chemistry",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Geography and Archaeology",
+                                            "label": "Geography and Archaeology",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Geosciences",
+                                            "label": "Geosciences",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Great Hall",
+                                            "label": "Great Hall",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_PlainWhite_Embassy.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFQTgxREE5QjZDNDMxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFQTgxREE5QzZDNDMxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVBODFEQTk5NkM0MzExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVBODFEQTlBNkM0MzExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            }
+                                        },
+                                        {
+                                            "value": "Law",
+                                            "label": "Law",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Molecular and Cell Biology",
+                                            "label": "Molecular and Cell Biology",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            }
+                                        },
+                                        {
+                                            "value": "Old Mutual Sports Hall",
+                                            "label": "Old Mutual Sports Hall",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/SafetyHealth/Theft.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAFiRJREFUeF7tWwd0FdXafdQAoaSQnnvvzNxQDEoRlF4UJUhTUKwoIujvUykC0jGIhd5DgFCklwfSIQLSFBCMdBBQBBEeqBTByrPtt/ckc99NCCQ8AXlr/d9aZ91LZu7M+fb5vv2Vc/jb3/5f/mcQCOBMb+d4gqMXx3CO0Rz9OJ7lqMsR9D+jzVVMtCrvHcPxGQdyGF/x+nyO5hz5ruIdN+Wtd3BWix2FIyLzIaFRILp0D8GI5HCkTI/AhGmRGDEuAq/0DkXT5sVgegv6A7SLv334ptQsh0nl4fXXOX6V8ndULYTR48ORtteDo6e8OPaNF8fPWtj9mRfbD3rxyZdeHDgehx2ferFum4FRKdFo0LgY8ub1WYssIuJ/BQj58HIpHhWdH2Oo+NGTFk6coZJHLez5zMTuwwY6djZw263RiC8bjsZNDCx9z8SmXSbWpVnYtMeLD/bEYdTkGNxWsZBjEXKfSjc7CCU4wa1Svt5dhZG2242vznOFjxjYdcjEJ1+YOHzKwMTpJkJLxKJCuSqoV7s+ihVyod3zHqQdsrCRIKzYZGLZRgvvpXmx7H0LLR4LckA4y2dXuVlByMuJrZDyjZsG4sg/LRz7iiv+qcFh4tMTBhalGnj0MTdio0vaCr3Rvz927dqFwgUCEB4ajIb3uTAkycTqjwjA+wbeoVUsWm9h5dY4tHkx/TccxzncNyMI/TXBOvUKU3kTn3NIea38oeMGho8xERUegcCAMDRu2AS9e/bAtq1bce7sWfTt3RsPNHsAYcEuFCtcEq3b0iXeN/HOWgtz3zUxZ5WFpZtLoUWrYAeE9XyXeOamEcX2PyKj8uOj3SQ6rvxurvqugyYOHDMwdY6JkOIRKOONR+qKFbicbN/+MRLuTUBA3mA883cTSz4wMSvVwozlJmastDBnjRcV7yjigND+ptGeE1mp1R+ZFI5T33qxm6u+k8rvPGggbb+JOnVcBCAaH27ZfFnlnQvnzp1DtTuqIzIsHCOnmJi7xsTUpSYmL7YwPdWLgSkuFC6SVyCID0JvBhAU61Hx9gAcPmFh3+F05T/+xMDeIyamzDZp1kF44fm/Z1J+7JgxmD1zJg4dPIiXXngBZ+kKjsybOxeF8gXhyXYezFuXrnzKQhPjFpiYvqoUGrbwkeIrNwMA4wTAsNFhdnzfcYDK7zewbS85gAD0TvTQpIOwaOFCn4LLly61zbh/v37YtXOn/X3QgAG+699/9x3ijFtQq24Mpq2wMHFRuvJj/2Fh/CIL/ca4UDAgj363l0Pk+99JXFxcgNcw7ve4XGNio6KWxURFpbpjYiZbHk8by7LCc/FU5fZHS4blw9adHuzl6qdlKL9lNy2BMb9DFzdKBEbQ/Lf4FEwaPdpWeuiQIdi7dy9KFC2KZk2aYB+/a+zcsQNVKt6JcvFRVNrEhIUWkvg5eq6JkbMtjF3gRXwlHxeIf65eqPgjVPZAWHAwXNHRKFe2LG695RYYsbFk42AQjJNxltUphydXlCL1GwQyzFn2ym/lykv5TTtpCeSCjl09KFIwFOvWrvUB8MXRoyhlWXi1b1/s3r0b4SEh8PC9BB5ewwN3tAehxTyon2BgAs1/7HwTo0ikI2ZZGMocImmhF/c/5QuLHa5ae69p9o+OiODLDPTo1g2bPvgAx44dw4njx+3QNGTQIFQqXx4RoaG6Z1bdunXzX+YljwuA9p2DCYAXW/dY2MJE5oMdJjZ+bGLbJyYGDDcQkK843nrzzUwc8OWXX2Lfvn3Ys2cPSnu9CCpWDCWDtBgxqHePC0+/YGDIZAvj3klXfniG8oOm8fscL57rEeVEg8lXBQAVei4qPBxVq1TBx2lpl2VlgdHywQeZoIRqZVSyZic9BcCbQ8PxybE4bN5l2MpvoPLrPjL4aWExk5mypaPp02Xw6aFDl7zv999/x3GCMWniRIbAexFcLAjlykWj/xgLU1bK5KnwTAtDuPKDppp4i5Fh0DQLLw9wIX8BmwdScw2Ay0V8o6K+k6n7Tybto48weOBAOzNbvWqVb5I//vgjGtxzD6LCwmAYRp1sXvSaABidEsn83sL7PuVNrNlq4t0tBIOukDjARFBgGG4vXwmrV//n+VnR+PXXXwlECqJK0h0MgpBMv5+XrvxAKT/ZxOsTTbxBy+g23INC6eHww1wDYHo8/eVvKePH+94tpbXKMsHgjNG2TRtIecmWzZtBggT5YuHlABg5PtKu5DakmVjLam7Nhxbe3WxiOROZ1dssO7V9qbOJiJLhdnx/qHlzTExJgbggO5kyaRKKFAhGo+YejCL5Sfk3M5TvN8FEvxQLXYe6HQBUe+RK8nL108qXK4fTp0/b71VoKh4YKOVsAtIw3W4ULlgQr7/2mm9uTe67TyCd9Xg8QVne1EcW0H9QOLYTgLXbqHCG8iuo/CpawWCmwDVquFGpUgTcsREEIQyhQUHInyePbXFHCcL0qVMz4fDbb7+hTo06sMxw9B+fDoBWPpHK96VVJE6w8GJ/FwoUtF3g3Vxpz7BWgkqcad6sme9ljz/2GKuyEj7lHRBEkHdWroyffvrJvldEGVK8OKzY2FuzvOwpAfB8xxCksa5fvcVCKldeymv1F683UbWqm2TqRY2qtVC3Vm1Wf7VRtlQp2+KGDh6MHQx5bPtg4FtvZQKhw0vtEcK5dXmTREoAEglE32QDvVgsvZriRauXfSQ4NVcAREdHh1LZC62ffNL3ovsSErgiJS8BwA6L5Inz58/b9ypcFcyXTyFyk2mayvwcqSwA6icUxZZ9cbbyy1m+Lt1gYulGFjEksVvKRqBmtdpQcnPx4kV7PNe2ra20AFAeIDAE+C+//OKbW++evRBM0NsnGnidxNeHKy/lu48mEASgwcO+MPhyrgCIiIgIpLL/lNKOPP/ccwhiEqJw6Ky+PhX+mt9/v+++EydOoP2LL9pcUTI4+DfD5VpY2rLuznjxgbCI/Fi8zkAqLWAJlV/E9HUhxz+Yx99ZNYp1f2X8/PPPvudNpo8LuAFc9b0Mg4yxrAabQRHBkTZPPY0wlsid3uLqpxjoSVfqPspE15EM3eO8KFUh0AmD1XMFgG7iyr6rBOTw4cP2e8T+MncRo3zf3wXuvftuLF+2LJNZLl2yBOIDkaKSJa/bvTCwUJFtUubVgRFYt92LhWtNLFhjYd4qAsGS9v4H3QgpFontH3/se5YItu3TT2PEsGF21le9atVMIfnbb79FuTK3IZ7hsHeSgd5jTXST8iMMvDLawrP93AgobEeAwxzKRi8V+rzb6/HcZbpc93LFGsR5PJWo5Itcwd979ejhm8wy5uUyv5jISB8Asgj9Wyb4aMuWdsHiL0qc2rRujWjmE5F0oaJFglGlWhGkfsga/r105WenEgg2M3q+YbIHEIT/e/bZSwhfViGXUPjzl9cSExkFgtDscQOJk6S8gS5UvtMwWkEy+aSRry+gMJxZmN8XpwJvc2Lfi21LZgx+/4NR4AgZ/5dIxvXFixb53vnD999jyeLFdkbmpKRORBARlYmLw9ikJHzzzTeZJrpm9WrUr1ePBBlEZg9H4uBoLN9sYRZ9fwaLmOkrTExjLV+7rgeBBUPQn5Hlhx9+uAQI5w8CYjitIrhoSSZDLnQdToVpAV342WmoiZdHWmibyChVNJ9W/zuO6Kz65+fEV8XQrBs1bIg+vXohkQTW79VX0bVzZ1S49Vab9GgFNvEMZAX2r3/9y36/LCEsiyuk5+aGbfICQr9P5LMUuhz5nuB17NAeRQsFoXLlWMykwnPpAtNYw09Zwk82MoaSxCpU5MRZ4taqXtv2/RXLl0PcIitYv34dkseORUM2Q4oFBKN0qVj8PZGkN85AZyrfkcp3GMLvNP8ylYs6vt/3ktVXZac096lWrWzTyirK9zesX4/NmzbZCs9iPe6sSKcOHWyT9yfDrN/lFgJOljKImeNPGcmS3vNyx44seoLRuLkLc5j+TlvhxcSMGn7SMgvDmM01f9SAxx2O4kVKoECevHbNsX//fjvEFi9czM446yV40GmgiZ5+yr802EDXsV7UbR7qKL8rW99nmBomADZu2GDrrtXRan1JxXOS3ADgACKLUAKVwDT5888/tx8tIKvfeSctIRT3tQjGzFVeTF7KSo41/BiWsUms6JJZ1iqdfaSNwSZJcQwfOhQHDx6im4ahWm23rXgfxnuZ/cv09w5DTLTnykv5hCfCkCd9n+A8R7lsiY/+nexmDFf6KlHHxan65AIyOw2xu3J+3bebXdkvvvjCbkzKNa5kAVmv2SCwgHGsrUf3bkynS3CS+VG1biCS5rGbs9yLkarmZph2Tj+KjQ0lNxEhMajJ5OiBpvcjvIQLjR4y0O/t9DDnKN9pJH2ffl+7WQjy5LGV/5Gj/mXDnicmJsnF1RFLS6a9/bYv1ZV/ixQ15M/6t0xa4U+ZmYZ/KMwJCHGDnqMQ5mSM4pvQoBK/BgQUOqnQGGsURMd+0UheFIfR870YTAAGkA9eTzFxbxPT5pbIsJKoUMmgzxvoNobK0+e7jGKun2ShdU8X4v4T70/zmfdcMeZnBUA5tnyWYdC2BE3YGVptTUCsr1pA9+SktH+9IL4oHx9v5xIS5e/KHRhhzoWFhXk50SSBoFGpRlG80CfaLmWHziYQs7x4a7qXFR3L2kEWeiVb6DvJix7JcTbTt3olFrfXK4GAQnas19jIUeaKyuuiXEAW4LjAjGnT7BWXonfVqYM+NHOVvaNGjkS7Z56xyUwEpMiQGwC06uIYVY3KD+Q6jqinZ/cO3G7/BkUzTivNASLaXRDV7ymBFm3D8HTXKLTrFYNnekajVedoNG0TgWoJ7ER5Czm+LsWPcajjk7tdYq7mKK20WF5y9swZu+mobEvZVVY5QgIbx/DTmNmdQqes40puIEupVaMGZkyfnulRyujE4Hz/56wVsm5iagPjAY5FHOccMK7weZHXNnOo7x+S46r738BVfERJTsf27S9L+kePHMGpU6cuua5WmCKBlMwOBP1NvKHw6YgiTDsWNnInd2zs0VIezy05TFiN1gSOLhzJHP/IGLIaxfWWHHFXpbT/zeryGm73B3KD1swFVHTMnDEDszgmsAmiFpcUlOm3evxxvLNgAc5nsYyGDRpkWyHK/6WomiWOdHjpJQTkzy+zX6/U+7+e+LX8YXxsbAhXa25YaOh5pcFFCxWyS081OeTrKobiTNOOAHbdz96gsrsLFy7Yeik2izizI0SnceLEfoVUmz+Yf1xLHa7JsyzDGCMFq95xh016ygD3swurbFAdWTUij9Ad0tgYVcvaqf0PHjhgE6J/TeAPhsCRz0uUCdasVk3EeLJMaGixazLxa/EQERFJ7UyVSpVsZa9WHn7oIbtEzs4KVP01qF8fv2VUcKo3ZGkkwQbXYu7X5Bl0gZaalHJtJ0Yr80viftyI4cMxasQIjOSQZUydMgWzZ82yyU2WsGP7dqhcFuFlB4CsQ+6jVpbkvffes92gcsWKU/jP4GuiwJ99CImwj2Jy6sqV9iTF8DJddX8U6tQHdD713ckOpYhMXyR5paRISZDjBl9//bUdNdTp/eOPP85wZJ+n/1mlrub3JKuxUuSjbdtsAObPm5djpefU/9oayykpEnhOg0M1vDZZ6tSsab+LAOi8318rDINzxPYiPcmkCRPsVc5tqpvTfbIA9RgkIk9ZTIuMHiIBmPHXas+3M/V9R5udxzJS1ZH0++za3zkpmt11mbtc5f2NG20AtOur/ICdodVU/jSHWLfAXwpCbGTkagHg9AFEev4AOF0euzrM4ANxhmqGnMxftYB6+04JrO6OnkOF76LyXTPcoPxfDcAaG4CMEKhenPzWv+urXt50FkspdA9tfDzUogUqVahgJ0cC5XI1gch0GPf1JWqnqciiRXxDhYsQgECObRzdbioA+vbpkwkA+bB2Y7OKzueoklQ2WCpLg1TgKRNUFum41lqGQNUeJNzx/grzudZNBYB2dhwLkInL1J0IoVaWkwX6AyJr0H3+PKDSWfm/RJsYj7AkDmSqzaTroCsychHvfzsiLOz1YkWKtPZGR7v+MhDIAZlcwB8AbXvdykaG0+JWYlQmg8XV5pbobEB8mTKZNk2zJkDfMP6ruFL4YxJknzCx9xPoQto0obWcprXoWPyNl6wA+LuATFYVn7MNpcZI0cKF2aXN4zuoJBO/pXTpTABIqefatbvEbbSfp0JKNYb6i+tZc4zhGSABKLC9Xq/2D2+s+ADI6AarW+O4gAjOSWIEgvJ6gaK/K1pIFD38ARAh6h7t2yvz+44bnVl3c7Iio200+2CFy6UzhDdWYiMiVvqHwdHM+Z0wKCCcrWi5wW10B60Ur/+h+7IDwNkgUeNUu8ZVbr8d9xK4h+kCsorujCKKDJN46MHpEeo5iiwKr9qiu2EI6HgbCelT+azD1v55gGL2gvnzbUVV0ChlZjP1JCPDz054U6mc1QUEgu4VWCJH5QNSzqkjBKxcSdtoshKJutMqnPi7tTcEgNKlS5ek4nvE1ortTrIyPjnZbn4KFCngHI7SCRFVjTTxJYzvF7Q3IJFPK71V319ZX3YjY6vcJjy7sEp/jl10KTlyRM1Tu7J0u2teVxDi4+MLcgIbpFBPv91frUZj7hNqxaS89vfOsFkq8XGD292BSnylLWsJExl7k1ImrAOMWUfTxo3Rkte0BffUE0/YR11Fpk77XYewHCtQrqB389qC6woAO0CJOtjwwvPP+9CXCyhT0+ooRAkc/wMSz3CLm9cumtHRpUmcO8QHJ0+evITpc/uHJ3Tkhu+wu0YMrxIRrTZqaUU/l/F4jOsCQnme/mAKe6oa218XMo61KCxV416dUwXKZNXPV6NUIveowV0dro4OGfyNhydfVBqs1VWS9OMVtrH9AdGGiCNqwcvn5TJqxTl9Rp1KU8Gk8wnXBQC1o2nCv8sUJZrUQ2Rox4flowp3q1JTfZNVh0gKk6CmZkwqDxOX6UpkZMoCp0mjRnj8kUegc0UyddvkOZ7kdx1peaBpU7snqNNejnR/5RVufBbm/wIpYHedJXt4HJYcIBeceV0A8Lpc5fwBUHJSs3p1m5W1gzt3zpxMcVvHVXQqhGavEJXpjA1BeNCIiZnN0x/baTUnuHLn6DoX+HmR1vQTx7f6G6+dI7l9yX//qFVXEiTRsfe6tXQirJZ98FmiLnIp1hAE4PrwgDqyTFS+vrtuXV+Gt5PmuGbNGpvQHFHOr0MRCmla/VKGccXz9vFhYUXdbnewQqs3NjaO381Ytt31N42oqKgiBKyl3Mv/UJVOhPmf+HqVxZiSIlrB9Tvfrz05ZWsTxo27hLNU5cn3ZdbiBK7EF+wYtbhW5khA56uLrP0F/5Ne2nSR8poX3eoz7Vlcq3de8pzSXB3682klK7179rT3ARSCdOBIPTuREM36O5r8oLI8M3gtJ8IdqTAquF/hTiFT/Yee3bvbbijr4EGtT3Kxbfbnp1SahxjZ1Nynl9o7P5yQQh/N/ZhpGANoyqX+/Fuyf4L2ImgJcxkBLuqdsjS+9yTD83C5y/V67yXPlV9yIo9yRYayPf4m438znRy7URMQV3ARErjqtW+U4v8GVl7VUmy76nsAAAAASUVORK5CYII=",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            }
+                                        },
+                                        {
+                                            "value": "Origins Centre",
+                                            "label": "Origins Centre",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Orange_Star.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Q0I2Mzg5NTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5Q0I2Mzg5NjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlDQjYzODkzNkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlDQjYzODk0NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            }
+                                        },
+                                        {
+                                            "value": "Paloesciences",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            },
+                                            "label": "Paloesciences"
+                                        },
+                                        {
+                                            "value": "School of Arts",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            },
+                                            "label": "Arts"
+                                        },
+                                        {
+                                            "value": "Senate House",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Orange_City_Hall.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1ODE5RDRERjZDMkYxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1ODE5RDRFMDZDMkYxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU4MTlENERENkMyRjExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU4MTlENERFNkMyRjExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+O7Q5lAAAB4ZJREFUeF7tnT/rHUUUQIMgQrCIKCJIMAhqaT6BBKwVK+u0FkLANkUqKyG1WOQDWKS3SW9jbZXaytbu+c4m+zJv987b+XPvzOz73QsnhGR23swcdnZ2Znb31uFwcK6YV39cTzx4zZPXPD3yYgPSzOnn468i9i54Fvn8yMsjVEQT8iTvWfzuYm+C7x95dISzLhTREn6bMlCW4WMPgu8doQu1OENroUyUjTIOGSMLfnik55maC2WlzEPFaILvHOF69++RsPH2BGWnDtSle4wi+BrELhlCdG/B1yh2SVfRPQV/d2TEgZMV1JU6N40eghlx7mnwpA11bzbqbi2Y+8dr7o5ToQ1oC/NoJZjrDzNCYSWdV21iem1uIZgZn5t0rc2FtjGbFbMWzI1/WBknjskkiaVgpvDCCjjb0GaqYSX42ZGw4E46tJ1aaAseejB15/Zbh8fffDDB36U0g6A2+NIUTIH+OhIWdBi+vf/u4e+fPz389+sXE/ydf5PSDgJtWS1ZU/CQkxefvP/24Y+f7p7ELuH/SCMdOwC0aVVoCR7ymktXLEmVIK2UxwBUXZM1BA8n96vPb591x6lwDMdKeXamWHKt4KHuc+lqf//hY1FeDuQxYLdddJ9cI5hNaGEBuvLj1+8d/nn6mSisBPIiT+m3OpK98a9UMKO7IRYN6FL/fHxPlKQBeQ/UbdPmWSPrUsHdR8zcx/728CNRigX81iD3zlkj6xLB7E4If7A52t1xKgN12zhIilzBrHqEP9SUL+++c/GethWUgbJIZWxI0gpUruAuM1V0jb98/6HY2D2hTB27bVxsRo5gdiCEP9AEphN7dMepULaOU56bu0JSBTcfNW9NMY5GpynPzVF1quBms1V0eTlTjKPRYaXq4ixXimB2AIYZmrFc8dkrHVaqors0UwSbn71aU4yj0XDKM3oWbwk2P3vp0kYeRNVC3RqtVIln8ZZgs7O3dMVnrzRYqRLP4kuCGZ2FGajAAKTlFONoGE95rkbUlwSrT0n2mmIcDdrAaMpzNYV5SbDaZnXrFZ+9YrBShbOziAnmKbjwwCLoikacYhwN5SnPsycYY4LNb40cM84GWzHBQyzmO0Xg7hSSYJXu2enKqZuWBHv3vH9O3bQk2B/13D+n0fRScNcdG44q046PpWD1RX3ptsBZI7VdJdNmgKVg9euvVBlnjdR2lUzX4aVg9T1XUmWcNVLbVTLt2VoKDhOoIFXGWSO1nQJngk0eRZEq46yR2k6BB6FgkwfJpMo4a6S2U+BhKLjpEwuplWS1RUobQ8qjBCnvGNLxkJPWiCeh4KYzWKmVd8FVPAsFN32gLLXyLriKFy44gpR3DOl4yElrxJngpnPQqZV3wVW8DAWH/2FOauVdcB0uOIKUdwzpeMhJa4ULjiDlHUM6HnLSWuGCI0h5x5COh5y0VrjgCFLeMaTjISetFS44gpR3DOl4yElrhQuOIOUdQzoectJaEQr2iY4AKe8Y0vGQk9YIn8mKIeUdQzoectIa4YJjSHnHkI6HnLRGPA8F+3JhgJR3DOl4yElrxNlyYdPXJKVW3gVX8SgU3PTtsamVd8FVnG3ZafY2HUitvAuu4l4omGj2VGFq5V1wMdNThkvBzUbSqZV3wcXgciW42Ug6tfIuuJjpfR1Lwc0GWqmV1xIspQUpLUhpY0jHQ05aA6bX/y8FE2EiM1Ir74KLmUIS3OTTdKmVd8FFTNdfQhLcZMIjtfIuuIjTe6QlwU3uh1Mr74KLOL23UhJMmL+6P7XyLjibs1f9xwSbdtM3/V2VUpsocuqeiZhgkxeRwk2WO2Ms+eyFpDHBhPrDaC73DUaST69PmuOSYNVJD5e7xkDyNLkRxiXBhMpgy+XGUZR8NriaY0tw9VP/LncbJcni52e3BBNVTx1KFXLWSG2Xweo90XOkCK46i6XKOGuktssg+vHoFMFE8bVYqoyzRmq7RMRr7xypgotH1FJlnDVS2yWyGjmHkSqYKFplkirjrJHaLgGcXIwcwUxgZ+/ZkirjrJHabgNciB/DCiNHMNF077RzkbM551jkCiaaPuLiiJwW9LeiRHBRV+2okdQ1z1EimPAPd/Tj7LtIW1EqmHh6JPxhxx7aPCtqBBN+PW5H8nU3jFrBLC6rrDg5F6GNV18WTYlawQRf9/BBlx207fQFlZLQEEy4ZBuq5BJaggmXrEu1XEJTMOGSdVCRS2gLJlxyHWpyCQvBBAX0byDmQ5upySWsBBN+C5VH8a3QpbAUPEfTj33slNV+Zq1oIZhgz5Bfl9fQJtH9VBrRSjDBtcW77DfQFqrXWylaCp6j6Rv1BmV6f0aL6CGYYD3zJi5UUOfktVyN6CV4Dq4/N+F2ijqaXmtj0VvwHHRZ1zgIo07NumMpRhFMcA9IY1zDGU0dqIv6fW1ujCQ4DLqzPY64KXOXrjgWowqeg9sItqmM3H1TNspofstTEqMLDoPNZjTkCF04ZaAsWRvgesSeBIfB2cLGbx7daCGc3+C3+M0hz9RY7FXwMhjM8BAWAxvOLO43S67hHMOx5EFe5Nl9oFQT1yI4JZAlcdVxEuxcK4db/wPzpvOVTMTvVgAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "Senate House"
+                                        },
+                                        {
+                                            "value": "The Built Environment",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            },
+                                            "label": "The Built Environment"
+                                        },
+                                        {
+                                            "value": "The Matrix",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Orange_Restaurant.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MDRFQzQ2MDZDMzExMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MDRFQzQ2MTZDMzExMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjUwNEVDNDVFNkMzMTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUwNEVDNDVGNkMzMTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "The Matrix"
+                                        },
+                                        {
+                                            "value": "The Plametarium",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Orange_Star.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Q0I2Mzg5NTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5Q0I2Mzg5NjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlDQjYzODkzNkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlDQjYzODk0NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "The Plametarium"
+                                        },
+                                        {
+                                            "value": "Waternweiler Library",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/OCHA/Infrastructure/infrastructure_school_bluebox.png",
+                                                "imageData": "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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "Waternweiler Library"
+                                        },
+                                        {
+                                            "value": "William Cullen Library",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/OCHA/Infrastructure/infrastructure_school_bluebox.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAxLSURBVHhe7ZtpcFXlGccvi4hLVcT6oSNj+6FOO3am47hUsa3Vb04X25F2asdaNSAgCNa6DdalRMFKZ2ppwREsKqDFImg2goDAzSUQSDQEMRAIublLbm723CV3v+f0+b2553ISTm6WJhZLzsw/9yzv+zz///O8yzlvzrHput4HaU2bKL8T2G8Px23vVHjuun9d9fPXPren4pIFJfplC7dply7cpp+NgBsc4QpnuKMho21CRlsfvX0OjAKxRNr26s5Ts65fat933kNFOrj44RJLp2cj4GrwRgNa0GTWaCC7k0prk/g91hya8aNXyrfa8gr18+cW65cvKtWmLSpNnc2Z7w+4whnuaEALmtBm1grUHyMqn3kDV12z5OPqSbML9emLS9PTHilNWTn4MgENaEET2tBo1pzt83X+MOJriNj0RaUJK2NfZqAJbWhEK5rRLgHQJ/bEUhNuX7H/A5X5RduTVgb+H4A2NKIVzWhXXWDlroZf2vIKiNIX1uQve2SbJn2UMUbtW5UZC6ARrWhWXaA9FJ8iI+V+aR5pBg6rSqMJ6ZOaQJ86r1ifNKcoDdjnHNes6owm0IhWNKPd9m6F96cyXcQkE4gfMwIIJNtT5hbpk+cUxa97Ya//7f3uZsA+57hGGcpa2Rgl0PJSaEa77YF11fnMl3JyTPq+2NWkicuUWqRPmF2YvjHf3vL63kZ3TzzVLU0wDdjnHNcoQ1nqUNfK5n8LtKIZ7Ta5azrAjcNoz/NGxnEkTS4i87B/c5Wvuasn0SWi1ZaUUQgYG9coQ1nqZBIz6i0CrWhGu+2SBdaFRgr6MYQhL0jevqLct+lQk0/09QiUWhGtAfbZ+h3z20Md6mIDW9jEtpXPkQLtNtkZFaNGpqYIWUGPZLHl/SqfJ5JIh3p1nZnxUCzZDTKHZ1ynLjawhU1s4wNfVhxGAI0AWF0YMsgKpMiS9N2kkPUK6WaREczoUBmW289shuU4uH6/p2nmcocC+5zjGgUoSx322bCFTWzjYzRbxIgDIFnIDm5CKCLNtfXflU3uWDIdyfA2hGSOpF3HU53vVHibbn7J0SJ1olMeKpbWUkz9KOe4RplMcdUaTIHTsY0PfOFzNAbLYQdgWq9DI+Px2/5c3rRFsiNkTzflVN+MJ1JaWKY7z63L97XJnRjzsGGHKUlaEIGU+wK5RhnKUoe6GFCBFJvss+ELn/iGA1zghB0rzrkw5ABAlGhPEaLnzSmM3bGivEUGKreQi2Z4GUQzRypjknGP75ZlZc1CMidRc2ApSx3qYiNjjsD2aRH4hgNc4AS34baIQQOQMahPfqhQnzq3KHLbK+XNWz71QazP4GUmFkmkwhsOuF0zlznaJ80pjJszbuXDDMpkW4TUxQa2sJkx3xtoU9eCC5zgBke4whnuVj7MyBkAmS9VHxeDiTtW7Pf/66C3SfwN2McTqXTXxgMen5D2yZ1dilEbIiMZrKhDXWxgC5vYxkfG3RmBly0CR7jCWY0RFrbNGDAAEj3tovkl6R++vK9bRmCvTElqVMcbjs3Cw7FUaGOFx32LZGuyaoqjdwODDRUIEiG28YEvfGbcZ/kYjOAKZ7ijAS1WtsGAARCn2oS8wtTGA14/RjFOtE0RJ/uBDTKF3brc4Zs0u0jdwkJ4JBkfDNjENj7whU98wwEuEDL4GQThjga0WNkEuVqAfoE8pX33+b2t4VgyZM64PEt3yZTlvXmZo02ap0xnY3PLagV8qBbR2zWicIALnDL0VGuAM9zRkGssyDkG4EweV5Nr7I1e7Eblzqx3OnO0TMxOZ4rQqGd8MOCzt0UU63CBE9zgCFc4w32wpOQOgDgh0re85Ohat8/dIAMRGTdNZ2Of8cGQSYCaPuEGR7jCGe5osKpnIGcAAKPoVxaUaKysTu03ndG0IGCQsIJxPVcztILZtgK2zOhnV3yp6ROOcIXzYDMAGDQAAEOIwZlAm764t/nJCGsscDBn0xT7gHOTJQsMXBfJ4yd1IGrlAxi28YNt6pFZacpngPOGXcpn6qm6iquFfSsMKQAGEMBztO2BApz3XPX4jpBMS+HZb1Uff6Hg+LE3ylzON/e5XdIEXescbld+Yd2xvLeq6773UllohpSVJhkhMNgyk8wEhqwp2zJwhcV28Pql9uis1ZWNT22urX36/b741WuVzhvz7RE4UJ56RpDNnAfDsAJA1L/x9K7WhRuPtP/T4fKd8IcZHNmYItTqjgXUVusLudaWufx3rzrkFVshVmdV5kQ4I7UERrv6yZ1tc9fXtL4t01tDW4/ZdsoCalqCw3oZ/BYIp2uWfMwttyX3gTDkAEh2ostKTjQ0dUUZZY27wWR7KN5R4wmkSj9r6ZDpqGHTIa9Lfp1Fh/0th90B7VRrTzCePH33JvN0sKKh03fv2k9cIjxmyyvQrn12d+fKXadOuToi3GzFe0vqYXdnpPuIJ5D+6GgLT5HO9w41ud6V38LDfr/4TDd3x3hOSPQW16PNgVgAjnC10mCFIQ6C2/QrFpd2Vzo7T+IpnkonCqqbG+e8fbj1hny7U4QkaNpypyb9MwM5liafmvHEDv+dfz3gebGorrXGHXArqr1bZNNBr/+x9466WgKx1sw5vb413LK0sK71x3+r8HxzyS7v1H62+eVYumDyO8/tcd33xifq6TEUS7HipB8SjnCF86gMgqYABPYeb3PKPUbi95uOeoVED0SMJW36ML/GKG0c068hPmF2YUIGqh4Ed/UkoqZbeJXxaCIVfe7D46e+9thHwYl5hUp0b5/uHS/MM4Bh+8L5xdiVUb8gMkvGBLEZdpzoaJRuFRiTAJSdaG+E692rK31MNVc+up3ZIOc8y8gshNWDzSUL1SCX/snKg75IPCUPcephhsfc6LwNNQ22BwsSFz/cOy5Qh7pWNg3g+6uLt6fPn1ek3/Si3Sm2QvvrO11jHoB71lT5JEuKpFWdgYAtaQVkLLVqj1N1JzbpTg3SZRKXS1YZGK3qDgSCwFT8/ZcdX1wAfv16lU8eMoYdAEBLoHlLK6Lpq37w5ObPG2T0TtGsrerkghEAuRX+8gSA/83d9Y9DaDcC4JabqXMrAD/vGwDXeADGAzAegPEAjAdgPADjAbCskwvjARgPwHgAxgMwHoCzIQAQEcealGNfQY7VcjXlxI4qO5QA4HOa1KEu6wdZe7KPD9nv4/d/FgAIskTFIgZLY6wS2e7/kNXjqJCKsPrDcrWIU29kIf6KxdsHDADXAX5Z3aWu2EMgr8xF2bc9qJbkVRnKTl+0/YsPwD1rqpoQZaz3XTS/JHbTi2XO377xaetT79fqq3Y7m9fYXe7nC47H5m2oCd75akXjlY9u7zLW+fj9xaq+ATh/bnGa/zlwTfyG71hR7py3viawZEtt+nV7o+e1Pc6mP249lsx7s7pj5nJH46ULtoUpe+H8Ev2C+cX6D152NIw0ADn7sUUAWIBstf1mS/rbz+4OLtlaW1fp7Ap0hhPtci37Zphpi8aS6Y6TLeHQ3z9uaLh+qb3Ldu/WxM9WHuSaEQCP7b4Pkt96Zne3BK2+1hcKh+Mp7GVfvzFt4e5IsuOoNxjML6qrv+5P9nbb7z5M3Jhv96Q1LTjMAGiDvihpDoDjRLtTCMQlq8ee2Px5mz8Qa5FjJYKNhd5EKq1ekkoKG/YlK5mratPCsVTHM1uPuWatrsy+BPWH946enL/xSH1TV5R3EbIVqKvsiS1ssm9aTWbTgtFk+18+qm+9e3VlVSyR6jlQ3znkVWH1ouRgr8qaA1B+sqMer8FIEvJJxeA0nz7M+m3qmqls8og32CwC1QsNn3mD/BcoxgWTkeHY00LRZJBjOMI1VwDQmn1VdrCXpc0B2HO87VSCN7UE0qz1uKSG46GDDKrAZf9lZtrSEowUZazrDoS0Fk1IS5N9ltnhOFgA0Ipm9bL0MF6X1656fEf660/u1K/OgP0h46md2ozHd+gzlzla19pd/n0nO7qrnN1tQLLWvbbM1XxDvr1bfKiyljZyQPioOnCEaz/uZjAtn35dfjgfTNBsGHVHCv7lraZLmcqk/3XLlNgO2GfK4xplrOoOFXC04m4AjWjNfjAhTW/In8zQpJjzR4xMffGjMsQgZAzCnDOXGTGkvplzf6ARrdlPZqTb/E8+mhKixgsN2bvEsYblR1MyCJ/bn83RDDJBODc/nOQPkNnk3P101oARlXPy42kDmQLnyOfzuu0/WqhnTVaQWpYAAAAASUVORK5CYII=",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "William Cullen Library"
+                                        },
+                                        {
+                                            "value": "Wits Arts Museum",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Orange_Star.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Q0I2Mzg5NTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5Q0I2Mzg5NjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlDQjYzODkzNkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlDQjYzODk0NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                                                "contentType": "image/png",
+                                                "width": 9.75,
+                                                "height": 9.75
+                                            },
+                                            "label": "Wits Art Museum"
+                                        },
+                                        {
+                                            "value": "Wits Plus",
+                                            "symbol": {
+                                                "angle": 0,
+                                                "xoffset": 0,
+                                                "yoffset": 0,
+                                                "type": "esriPMS",
+                                                "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_59.png",
+                                                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABMVJREFUeJztmk9oVFcUxg86YKADzkLQoqCgUkGlBV0oWhwhC8EIlW6ECkZqQdFFREFFFxFduHARMaKii4iKFVwozSLSghPaRRZ2UVowYsQpCBV0EcGFgkK/z3tHx+f98+bO3Elm3hz4keSdd+6797vnnPcy8yTrNkMybh0BJOPWEUAyblMlwHJwFvwHfgE/gFlTMZFmCjAfHAAPwD9gH5gHesA18AJcBZubOKfoAnwBdoBfwVNwGiwDk+ACKII+MAHyYDsYFpUZzJDlkecXTYDvRe0md3UIdOvjY6BX1M7vAc9ECbFUlBg897X2M0OYKcyYQ2BhjIk2UoBV4Dx4Dm6J2s0uUSIMgCVgLbgCvhG1sHFR2UCxRsFOUYvfLWrxNGbMKVAGv4MfwexGTbpeAbgrR8EjcF/UxOdoX0mUCFzQfvC4Ko7nLdO/d+nzvtZ/vwQXwUpRQl0Gr7Rvvf6bot4QlWkz61lAiABUn7vA3SiDk6J2l8aU5m4tAhvBdfDOMEZ3ymN/gZ9EidorqoRoObBNVKZRjEtgnQRYLQJQ7Rv6gtyF9VW+YT2hL8ER8K9nrFLKYxV7I6p0WELMnAE9D1oB7AJ/gCfgBFgsKc0nQLKuucic9rGr94MFYAu4KemNjW9c/86mx9vgnyljH4oqKZYWS2ekyrcIHBN1V/kb7AVzXYOZBHDVNa3S1Hjxkqj031AjOT0u+U5URtU6BjOQm8CS65WP5VGxFWBQVFlaH7aSAnwln9d10ihGn158vTATRhowzhBYI3arPGwlRfpMAKbOW2lfKycPJAVgxz4oqrbbkaHEeo094Aw4LqrJFB0w5W7rc6sZ98SRSUPcsB7TFffaErfaE7dAn3snjQA0NsLdnkE3iWpgSTssfgH6DHHb9ZiuuIOWuB5P3C6xPErbBGB35e7y3vrC4Gev4KNqyeC77PCN6difDb4RHVc2+Ma175ojbsLgm9TXZJY8NfitArAXbAXfikq7pHEn+Kg6avCd0777Bl9J1D8+Rwy+uzqu3+Cb0L79jjhTdvARmg9PfE4xPZGmehLMG44VUsR1pTyWZmzTHNKc440LFSB0QqHCpbleUFwaAXKGY2km1MidTJM5pjjO3flRm08A2//dzV5I6PW81/QJYAuOVpMSnjm2uTrLLlSA0FqO2QPyNR5/bz4BbBMO3cnQEgiNcx1/b6EZMBW17PscMGiurdIDXHPxjV1XDyjUeLxi/KCykfdz13Hf2FFKwLcQm997X5bAnZRpVgIuf5SdlGl2F3D5fTsZ9EAjkXpAjAxw+VgeOYvPd82mlgDNdVsKLYFQ4Vz+KCXgGzg0rum9wydAzuELnWwMcXjbtc21rh6Qj+ALLYFQ4erqAflp5IvSO+ppgtOpB4TOs6UyIIao0QSIka4tVQLNTuXQMevKgEKTfTFKxysAvybvt1AW+3f3vznixhxxZUfcbXG/b2CL2+daoE+AHsfAQ2L/vn7QEXdB3N/z2+IGHHG3HHHdrgV23hX2+Pm+TbHFOeZaYFIAvl11rwpXKrcKg4k1Vd5HNArAblpscz65KyQF4NfJpTZnsnrBFQEqtxO+StLf5hSq1vtBgFJG6dwGOwLon8WM8kGA0YzSKYGOAJJxy7wA/wMFMBydtd4/NAAAAABJRU5ErkJggg==",
+                                                "contentType": "image/png",
+                                                "width": 11.25,
+                                                "height": 11.25
+                                            },
+                                            "label": "Wits Plus"
+                                        }
+                                    ]
+                                },
+                                "fixedSymbols": true
+                            },
+                            "fields": [
+                                {
+                                    "name": "__OBJECTID",
+                                    "alias": "__OBJECTID",
+                                    "type": "esriFieldTypeOID",
+                                    "editable": false,
+                                    "nullable": false,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Name",
+                                    "alias": "Name",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Caption",
+                                    "alias": "Caption",
+                                    "type": "esriFieldTypeString",
+                                    "length": 1023,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Icon_Colour",
+                                    "alias": "Icon_Colour",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Long",
+                                    "alias": "Long",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Lat",
+                                    "alias": "Lat",
+                                    "type": "esriFieldTypeDouble",
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "URL",
+                                    "alias": "URL",
+                                    "type": "esriFieldTypeString",
+                                    "length": 511,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                },
+                                {
+                                    "name": "Thumb_URL",
+                                    "alias": "Thumb_URL",
+                                    "type": "esriFieldTypeString",
+                                    "length": 255,
+                                    "editable": true,
+                                    "nullable": true,
+                                    "domain": null
+                                }
+                            ],
+                            "types": [],
+                            "capabilities": "Query,Editing",
+                            "name": "POIs",
+                            "extent": {
+                                "type": "extent",
+                                "xmin": 3119753.9999,
+                                "ymin": -3023003.0001,
+                                "xmax": 3120614.0001,
+                                "ymax": 3022622.0001,
+                                "spatialReference": {
+                                    "wkid": 102100
+                                }
+                            },
+                            "templates": [],
+                            "minScale": 73957191,
+                            "maxScale": 0
+                        },
+                        "featureSet": {
+                            "features": [
+                                {
+                                    "geometry": {
+                                        "x": 3120338,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Senate House",
+                                        "Caption": "First place one goes through when entering Wits. Registrations, fees and cashiers office. Also houses the Vice Chancelor's office",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030476,
+                                        "Lat": -26.192806,
+                                        "URL": "https://www.flickr.com/photos/grahameh/2615465013",
+                                        "__OBJECTID": 0,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120197,
+                                        "y": -3022958,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geography and Archaeology",
+                                        "Caption": "The School of Geography, Archaeology and Environmental Studies is one of the most productive research units at Wits. Staff members contribute regularly to local and international publications and are members of the editorial boards of many prestigious journals. The School has an excellent reputation both locally and internationally as one of the leaders in African scholarship on issues such as sustainability, climate change, urban social and environmental justice, tourism and development. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029206,
+                                        "Lat": -26.192626,
+                                        "URL": "https://www.google.co.za/search?q=bernard+price+building+wits&biw=1829&bih=910&source=lnms&tbm=isch&sa=X&ei=XD1vVeabGeWC7gaEvoLYBw&ved=0CAcQ_AUoAg&dpr=1.05#imgrc=jwEnSvzvY_E2VM%253A%3BKWMEVsMdQhKtOM%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252Fwp-content%252Fuploads%252F2015%252F04%252Fbp.jpg%253Fw%253D582%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252F2015%252F04%252F21%252Fthe-men-behind-the-names-of-buildings-at-wits-university%252F%3B960%3B1440",
+                                        "__OBJECTID": 1,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120186,
+                                        "y": -3023003,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Paloesciences",
+                                        "Caption": "The Evolutionary Studies Institute. The richness and completeness of South Africa�s fossil record makes it a prime laboratory for studying the origins of species through time, including human origins.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029105,
+                                        "Lat": -26.192985,
+                                        "URL": "http://www.brentstirton.com/index.php#mi=2&pt=1&pi=10000&s=26&p=32&a=3&at=0",
+                                        "__OBJECTID": 2,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120248,
+                                        "y": -3022778,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Geosciences",
+                                        "Caption": "With 18 academic and 30 Honorary staff, it is the largest and most diverse academic Earth Science institution in southern Africa and the only one offering specialist Honours degrees in Geophysics and Palaeontology, in addition to Geology, Geochemistry and Environmental Earth Science. The School leads several initiatives for geosciences research and training nationally and on the African continent.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029667,
+                                        "Lat": -26.191175,
+                                        "URL": "https://twitter.com/MPlail/status/599890388422434816",
+                                        "__OBJECTID": 3,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120428,
+                                        "y": -3022894,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chemistry",
+                                        "Caption": "The Wits School of Chemistry consists of over 60 permanent academic and technical staff, as well as a number of honorary staff, and around 100 Post-Graduate students and Post-Doctoral Fellows.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.031279,
+                                        "Lat": -26.192108,
+                                        "URL": "http://witsvuvuzela.com/wp-content/uploads/2012/08/ChemistryforOnline_Tee2.jpg",
+                                        "__OBJECTID": 4,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120510,
+                                        "y": -3022832,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Molecular and Cell Biology",
+                                        "Caption": "The School of Molecular and Cell Biology (MCB) within the Faculty of Science at the University of the Witwatersrand proudly offers cutting-edge teaching and research across diverse subject areas. The school has three main focus areas: Biochemistry & Cell Biology, Genetics & Developmental Biology and Microbiology & Biotechnology.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.032014,
+                                        "Lat": -26.191613,
+                                        "URL": "http://www.artefacts.co.za/main/Buildings/image_slide.php?type=2&bldgid=10060&rank=1",
+                                        "__OBJECTID": 5,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119949,
+                                        "y": -3022826,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Chamber of Mines",
+                                        "Caption": "The study of engineering involves the conservation and development of the earth�s natural, agricultural and mineral resources in order to serve humanity�s needs. In addition, engineering plays a vital role in the survival of the South African and international economies. We often take for granted our roads, bridges, buildings, cars, aeroplanes, fuels, electricity, television and telephones, but none of these would be possible without engineers.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026979,
+                                        "Lat": -26.191559,
+                                        "URL": "http://mg.co.za/article/2012-06-01-wits-building-a-better-future",
+                                        "__OBJECTID": 6,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119754,
+                                        "y": -3022471,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Law",
+                                        "Caption": "The Oliver Schreiner School of Law is recognized as one of the top law schools in the country, with a reputation for leading edge research, active public engagement, excellent teaching and rigorous training. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.02523,
+                                        "Lat": -26.188699,
+                                        "URL": "https://lameezomarjee.files.wordpress.com/2014/04/dsc_0575edited.jpg",
+                                        "__OBJECTID": 7,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119880,
+                                        "y": -3022472,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Accountancy",
+                                        "Caption": "The Wits School of Accountacy attracts and produces some of the country�s best financial minds, making it the first choice for many individuals seeking to pursue a career in the field of Accountancy. The School consistently produces some of the top performers in the South African Institute of Chartered Accountants (SAICA) and Independent Regulatory Board of Auditors (IRBA) Qualifying Examinations.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.026362,
+                                        "Lat": -26.188704,
+                                        "URL": "http://www.businessessentials.co.za/wp-content/uploads/2014/11/wits-school-of-accountancy-1-be.jpg",
+                                        "__OBJECTID": 8,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022645,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Built Environment",
+                                        "Caption": "Degrees in the Built Environment address the social, spatial and infrastructural needs of a transforming South Africa. This includes the degrees in Architecture, Urban and Regional Planning, Property Studies and Quantity Surveying. The delivery of affordable housing, the development of rural and urban environments, and meeting other social and physical challenges form the basis of the teaching, learning and research programmes that are offered by this particular Faculty.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029303,
+                                        "Lat": -26.190098,
+                                        "URL": "http://l-e-a-d.pro/news/1705/tonight-public-final-presentation/20110717/day-10-joburg-workshop",
+                                        "__OBJECTID": 9,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3119959,
+                                        "y": -3022629,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Plus",
+                                        "Caption": "If life and your career is a full-time job and you can�t study full-time but you need to learn more to earn more or advance yourself then WITS Plus is for you!",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.027073,
+                                        "Lat": -26.189976,
+                                        "URL": "http://www.businessessentials.co.za/wp-content/uploads/2014/09/wits-plus-3-be.jpg",
+                                        "__OBJECTID": 11,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120369,
+                                        "y": -3022766,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Waternweiler Library",
+                                        "Caption": "Waternweiler Library is a Helping Hand for Arts, Drama,Music And Film Students. It has an important electronic journal subscription to the Oxford suite of resources, aimed at the Arts and Social Sciences disciplines.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030755,
+                                        "Lat": -26.191081,
+                                        "URL": "https://www.google.co.za/search?q=paleo+sciences+wits&biw=1829&bih=910&source=lnms&tbm=isch&sa=X&ei=yj9vVcviLurW7Qbo5IGoCQ&ved=0CAYQ_AUoAQ&dpr=1.05#tbm=isch&q=waternweiler+library+wits&imgrc=ZIky_l2Yn2KVjM%253A%3BKWMEVsMdQhKtOM%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252Fwp-content%252Fuploads%252F2015%252F04%252Fww1.jpg%253Fw%253D582%3Bhttp%253A%252F%252Fwitsvuvuzela.com%252F2015%252F04%252F21%252Fthe-men-behind-the-names-of-buildings-at-wits-university%252F%3B1440%3B960",
+                                        "__OBJECTID": 12,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120216,
+                                        "y": -3022718,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "William Cullen Library",
+                                        "Caption": "The William Cullen Library is situated on the east campus of the University. The library was named after Dr. William Cullen (1867-1948) - Chemist & Metallurgist.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029378,
+                                        "Lat": -26.190689,
+                                        "URL": "https://marshamoodley.files.wordpress.com/2012/03/img_0837.jpg",
+                                        "__OBJECTID": 13,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120103,
+                                        "y": -3022444,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Plametarium",
+                                        "Caption": " The planetarium serves as an academic and educational centre for scholars, researchers and academics who study astronomy. The planetarium hosts about 70 000 visitors per year who come to view numerous displays, and engage in tours, lectures and workshops.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028358,
+                                        "Lat": -26.188484,
+                                        "URL": "http://wsoa.wits.ac.za/music/wp-content/uploads/sites/8/2014/11/planetarium.jpg",
+                                        "__OBJECTID": 14,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120090,
+                                        "y": -3022989,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Origins Centre",
+                                        "Caption": "Opened by President Thabo Mbeki in 2006, the Origins Centre is a world-class museum dedicated to exploring and celebrating the history of modern humankind, telling the story of the emergence of human beings and humanity in southern Africa.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.028247,
+                                        "Lat": -26.192877,
+                                        "URL": "https://msusouthafricastudyabroad.files.wordpress.com/2012/06/img_0315.jpg",
+                                        "__OBJECTID": 15,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120614,
+                                        "y": -3022980,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Wits Arts Museum",
+                                        "Caption": "Wits Art Museum is home to an extraordinary collection of African art, including contemporary and historical art from South Africa and art from West and Central Africa. It hosts a dynamic program of events and art exhibitions. The Museum is one of Johannesburg's premier tourist attractions, along with the Apartheid Museum and Constitution Hill. It is part of the Wits University Cultural Precinct, just three blocks from Nelson Mandela Bridge. WAM is in the hip, regenerating area of Braamfontein, which is also home to many students, interesting shops and places to eat. The WAM Cafe is a fun place to meet friends and enjoy delicious food and coffee.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.03295,
+                                        "Lat": -26.192803,
+                                        "URL": "http://eduardocachucho.com/wp-content/uploads/2012/11/A-Maze-Festival-71-Lerato-Maduna.jpg",
+                                        "__OBJECTID": 16,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120366,
+                                        "y": 3022622,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "The Matrix",
+                                        "Caption": "A student mall, the Matrix, originally housed 26 leisure and convenience outlets. It continues to grow with the introduction of new shops and food spots. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030728,
+                                        "Lat": 26.189919,
+                                        "URL": "https://twitter.com/houseofhohwa",
+                                        "__OBJECTID": 17,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120208,
+                                        "y": -3022584,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Old Mutual Sports Hall",
+                                        "Caption": "Houses a diverse range of sports and facilities which include: Gymnastics, Weights, Badminton, Karate, Mountain Wall, Yuishinkai Kobujutsu and Tai Chi ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.029306,
+                                        "Lat": -26.189614,
+                                        "URL": "https://twitter.com/witssport/status/298377500201988096",
+                                        "__OBJECTID": 18,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120327,
+                                        "y": -3022895,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "Great Hall",
+                                        "Caption": "Corinthian columns and classic monumental architecture make the Wits Great Hall an archetypal university building. It was originally opened in 1934. The Great Hall seats up to 1035, has a rich heritage that dates back to the world premiere of the SA musical, King Kong and beyond. Today, it is usually used for Graduations, Prize Givings and special lectures. ",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.030373,
+                                        "Lat": -26.192118,
+                                        "URL": "http://upload.wikimedia.org/wikipedia/commons/f/f4/The_Wits_University_Great_Hall.jpg",
+                                        "__OBJECTID": 19,
+                                        "Thumb_URL": null
+                                    }
+                                },
+                                {
+                                    "geometry": {
+                                        "x": 3120561.4965301747,
+                                        "y": -3022866.8185813883,
+                                        "spatialReference": {
+                                            "wkid": 102100
+                                        }
+                                    },
+                                    "attributes": {
+                                        "Name": "School of Arts",
+                                        "Caption": "Through advancing excellence in research, teaching and learning, the Wits School of Arts combines critical inquiry with artistic practice in ways that engage in transformative ways with our contemporary urban, African and global contexts.",
+                                        "Icon_Colour": "B",
+                                        "Long": 28.032461,
+                                        "Lat": -26.192,
+                                        "URL": "http://witsvuvuzela.com/wp-content/uploads/2012/05/IMG_6075.jpg",
+                                        "Thumb_URL": null,
+                                        "__OBJECTID": 21
+                                    }
+                                }
+                            ],
+                            "geometryType": "esriGeometryPoint"
+                        },
+                        "nextObjectId": 22,
+                        "popupInfo": {
+                            "title": "{Name}",
+                            "fieldInfos": [
+                                {
+                                    "fieldName": "__OBJECTID",
+                                    "label": "__OBJECTID",
+                                    "isEditable": false,
+                                    "tooltip": "",
+                                    "visible": false,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Name",
+                                    "label": "Name",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Caption",
+                                    "label": "Caption",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Icon_Colour",
+                                    "label": "Icon_Colour",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Long",
+                                    "label": "Long",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    },
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Lat",
+                                    "label": "Lat",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    },
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "URL",
+                                    "label": "URL",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Thumb_URL",
+                                    "label": "Thumb_URL",
+                                    "isEditable": true,
+                                    "tooltip": "",
+                                    "visible": true,
+                                    "format": null,
+                                    "stringFieldOption": "textbox"
+                                }
+                            ],
+                            "description": null,
+                            "showAttachments": false,
+                            "mediaInfos": []
+                        }
+                    }
+                ],
+                "showLegend": true
+            },
+            "visibility": true,
+            "opacity": 1
+        }
+    ],
+    "baseMap": {
+        "baseMapLayers": [
+            {
+                "id": "OpenStreetMap",
+                "opacity": 1,
+                "visibility": true,
+                "type": "OpenStreetMap",
+                "layerType": "OpenStreetMap"
+            }
+        ],
+        "title": "OpenStreetMap"
+    },
+    "spatialReference": {
+        "wkid": 102100
+    },
+    "version": "2.1",
+    "applicationProperties": {
+        "viewing": {
+            "routing": {
+                "enabled": true
+            },
+            "measure": {
+                "enabled": true
+            },
+            "basemapGallery": {
+                "enabled": true
+            }
+        }
+    }
+}

@@ -10,7 +10,6 @@ const Sequelize = require("sequelize");
 // Get faculty, department, and publication counts
 const getCounts = async (year) => {
   try {
-    console.log("YEAR", year);
     let yearToUse = null;
     if (
       year !== undefined &&
@@ -27,12 +26,10 @@ const getCounts = async (year) => {
     const [
       basicCounts,
       publicationCountPerMonth,
-      // departmentPublicationCounts,
       publicationWordCounts,
       allSchoolsYearly,
     ] = await Promise.all([
       getBasicCounts(yearToUse),
-      // getPublicationCountPerMonth(),
       getDepartmentPublicationCountsMonthly(yearToUse),
       getTopWords(yearToUse),
       getAllDepartmentsYearly(yearToUse),
