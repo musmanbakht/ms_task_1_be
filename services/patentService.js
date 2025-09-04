@@ -57,10 +57,11 @@ async function getAllPatents(q, page = 1, limit = 10) {
     };
   }
 }
-async function getPatentsStats() {
+async function getPatentsStats(schoolId) {
   try {
+    console.log("school name", schoolId);
     const patentsBySchool = await getPatentCountBySchool();
-    const patentsByCountry = await getPatentCountByCountry();
+    const patentsByCountry = await getPatentCountByCountry(schoolId);
     const topWords = await getTopWords(20);
     return {
       status: 200,
@@ -79,7 +80,7 @@ async function getPatentsStats() {
   }
 }
 
-const getPatentCountBySchool = async () => {
+const getPatentCountBySchool = async (schoolName) => {
   const results = await Patent.findAll({
     attributes: [
       "schoolId",
@@ -94,6 +95,8 @@ const getPatentCountBySchool = async () => {
         model: School,
         as: "school",
         attributes: ["id", "name", "abbreviation"],
+        // where: schoolName ? { abbreviation: schoolName } : undefined,
+        // required: !!schoolName,
       },
     ],
     group: ["school.id", "Patent.schoolId"],
@@ -105,7 +108,7 @@ const getPatentCountBySchool = async () => {
   return results;
 };
 
-const getPatentCountByCountry = async () => {
+const getPatentCountByCountry = async (schoolId) => {
   const results = await Patent.findAll({
     attributes: [
       "country",
@@ -118,6 +121,8 @@ const getPatentCountByCountry = async () => {
     group: ["country"],
     order: [[Sequelize.fn("COUNT", Sequelize.col("id")), "DESC"]], // order by function
     raw: true,
+    where: schoolId ? { schoolId } : undefined,
+    required: !!schoolId,
   });
 
   return results;

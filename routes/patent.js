@@ -15,7 +15,9 @@ router.get("/", async (req, res) => {
 });
 router.get("/stats", async (req, res) => {
   try {
-    const patents = await patentService.getPatentsStats();
+    const { schoolId } = req.query;
+    console.log("first", schoolId);
+    const patents = await patentService.getPatentsStats(schoolId);
     res.json(patents);
   } catch (err) {
     console.error(err);
