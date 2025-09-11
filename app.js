@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use("/api", routes);
 
 // Start server
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, async () => {
   console.log(`Server running on http://localhost:${PORT}`);
 
